@@ -1,29 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: #ff69b4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    a {
-      color: white;
-      font-size: 1.2rem;
-      text-decoration: underline;
-      font-family: sans-serif;
-    }
-  </style>
-  <script>
-    window.location.replace("https://en.wikipedia.org/wiki/Year_2000_problem");
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Your Code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffeef8 0%, #e9d5ff 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 40px 30px;
+            box-shadow: 0 20px 60px rgba(219, 39, 119, 0.3);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #db2777;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #a855f7;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .code-display {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .code-slot {
+            width: 70px;
+            height: 70px;
+            border: 3px dashed #f9a8d4;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            background: #fce7f3;
+            transition: all 0.3s ease;
+        }
+
+        .code-slot.filled {
+            border: 3px solid #db2777;
+            background: #fbcfe8;
+            transform: scale(1.05);
+        }
+
+        .symbols {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .symbol-btn {
+            width: 100%;
+            aspect-ratio: 1;
+            border: none;
+            background: linear-gradient(135deg, #fce7f3 0%, #e9d5ff 100%);
+            border-radius: 20px;
+            font-size: 40px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(219, 39, 119, 0.2);
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .symbol-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(219, 39, 119, 0.3);
+        }
+
+        .symbol-btn:active {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, #fbcfe8 0%, #ddd6fe 100%);
+        }
+
+        /* Fix for iOS touch events */
+        .symbol-btn,
+        .clear-btn,
+        .enter-btn {
+            -webkit-tap-highlight-color: rgba(219, 39, 119, 0.2);
+            touch-action: manipulation;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .clear-btn, .enter-btn {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .clear-btn {
+            background: #fce7f3;
+            color: #db2777;
+        }
+
+        .clear-btn:hover {
+            background: #fbcfe8;
+        }
+
+        .enter-btn {
+            background: linear-gradient(135deg, #db2777 0%, #a855f7 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(219, 39, 119, 0.3);
+        }
+
+        .enter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(219, 39, 119, 0.4);
+        }
+
+        .enter-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .message.error {
+            background: #fce7f3;
+            color: #db2777;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-  <a href="https://example.com">Click here if not redirected</a>
+    <div class="container">
+        <h1>✨ Enter Your Code ✨</h1>
+        <p class="subtitle">Choose 3 symbols in order</p>
+        
+        <div class="code-display">
+            <div class="code-slot" id="slot1"></div>
+            <div class="code-slot" id="slot2"></div>
+            <div class="code-slot" id="slot3"></div>
+        </div>
+
+        <div class="symbols">
+            <button class="symbol-btn" data-symbol="❤️">❤️</button>
+            <button class="symbol-btn" data-symbol="☁️">☁️</button>
+            <button class="symbol-btn" data-symbol="🌳">🌳</button>
+            <button class="symbol-btn" data-symbol="🌙">🌙</button>
+            <button class="symbol-btn" data-symbol="💧">💧</button>
+        </div>
+
+        <div class="controls">
+            <button class="clear-btn" id="clearBtn">Clear</button>
+            <button class="enter-btn" id="enterBtn" disabled>Enter</button>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script>
+        let code = [];
+        
+        // Define your codes and their corresponding URLs here
+        const codeMap = {
+            '❤️☁️🌳': 'https://example.com/page1',
+            '🌙💧❤️': 'https://example.com/page2',
+            '🌳🌙☁️': 'https://example.com/page3',
+            // Add more code combinations and their URLs
+        };
+
+        // Add event listeners to symbol buttons
+        document.querySelectorAll('.symbol-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                addSymbol(this.getAttribute('data-symbol'));
+            });
+        });
+
+        // Add event listeners to control buttons
+        document.getElementById('clearBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            clearCode();
+        });
+
+        document.getElementById('enterBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            checkCode();
+        });
+
+        function addSymbol(symbol) {
+            if (code.length < 3) {
+                code.push(symbol);
+                updateDisplay();
+            }
+        }
+
+        function updateDisplay() {
+            for (let i = 1; i <= 3; i++) {
+                const slot = document.getElementById(`slot${i}`);
+                if (code[i-1]) {
+                    slot.textContent = code[i-1];
+                    slot.classList.add('filled');
+                } else {
+                    slot.textContent = '';
+                    slot.classList.remove('filled');
+                }
+            }
+            
+            document.getElementById('enterBtn').disabled = code.length !== 3;
+            document.getElementById('message').style.display = 'none';
+        }
+
+        function clearCode() {
+            code = [];
+            updateDisplay();
+        }
+
+        function checkCode() {
+            const enteredCode = code.join('');
+            const url = codeMap[enteredCode];
+            
+            if (url) {
+                window.location.href = url;
+            } else {
+                const message = document.getElementById('message');
+                message.textContent = '❌ Invalid code. Please try again!';
+                message.classList.add('error');
+                message.style.display = 'block';
+                
+                setTimeout(() => {
+                    clearCode();
+                }, 1500);
+            }
+        }
+    </script>
 </body>
 </html>
