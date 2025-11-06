@@ -409,12 +409,13 @@
         let code = [];
         
         // Define your codes and their corresponding URLs here
-        const codeMap = {
-            '❤️☁️🌳💧': 'rainyday.html',
-            '🌙💧❤️✨': 'https://example.com/page2',
-            '🌳🌙☁️❤️': 'https://example.com/page3',
-            // Add more code combinations and their URLs
-        };
+const codeMap = {
+    '❤️☁️🌳': 'template.html?date=rainyday',
+    '🌙💧❤️': 'template.html?date=starrynight',
+    '🌳🌙☁️': 'template.html?date=example3',
+    // Add more code combinations here
+    // Format: 'emoji_code': 'template.html?date=your_date_id'
+};
 
         // Add event listeners to symbol buttons
         document.querySelectorAll('.symbol-btn').forEach(btn => {
