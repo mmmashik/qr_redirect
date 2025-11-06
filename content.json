@@ -1,0 +1,186 @@
+{
+    "rainyday": {
+        "title": "A Message for a Rainy Day",
+        "subtitle": "Date Plan",
+        "heroTitle": "Letters for Tomorrow",
+        "heroSubtitle": "A heartfelt ritual: Write letters to each other now, seal them with care, and open them only when a specific moment arrives—turning your words into time capsules of love.",
+        "sectionTitle": "The Process: \"Warmth at the Tip of Your Pen\"",
+        "dresscode": {
+            "title": "Dress Code & Vibe",
+            "subtitle": "Creating the Right Atmosphere",
+            "description": "The key is comfort and coziness. Think soft fabrics, warm layers, and your favorite loungewear that makes you feel relaxed and creative."
+        },
+        "checklist": [
+            {
+                "title": "Stationery & Writing Tools",
+                "items": ["Beautiful paper or cards", "Quality pens", "Envelopes", "Optional: Wax seal kit"]
+            },
+            {
+                "title": "Atmosphere Setters",
+                "items": ["Candles or soft lighting", "Cozy blankets", "Hot beverages (tea, coffee, cocoa)", "Background music (instrumental or ambient)"]
+            },
+            {
+                "title": "Personal Touches",
+                "items": ["Photos or mementos to include", "Pressed flowers", "Scented oils or perfumes", "Decorative stickers or stamps"]
+            }
+        ],
+        "topics": [
+            "Share a favorite memory from your relationship",
+            "Describe what you admire most about your partner",
+            "Write about your hopes and dreams for the future",
+            "Express gratitude for specific moments or qualities",
+            "Share a vulnerable thought or feeling",
+            "Describe how your partner makes you feel loved"
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "title": "The Letter Workshop",
+                "subtitle": "Words for the Future",
+                "content": "Settle into your cozy corners and write your partner a letter that is sincere, warm, and completely unguarded. The main goal is to be a source of support and to bring a genuine smile to their face when the letter is finally opened down the road.",
+                "ideas": [
+                    "Tuck in something symbolic: A ticket stub from your first movie date, a pressed flower, or a tiny doodle",
+                    "Spritz the paper with your signature scent to add an extra dimension of memory"
+                ]
+            },
+            {
+                "number": 2,
+                "title": "The Sealing Ritual",
+                "subtitle": "Creating the Secret",
+                "content": "Once finished, the letters are folded and sealed in their envelopes. The contents must remain a complete secret until Day \"X.\" That element of intrigue is what creates the real magic.",
+                "ideas": [
+                    "Use a wax seal with your initials or a heart symbol",
+                    "Invent and draw your own coat of arms or a secret couple's sign on the envelope"
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Rules of the Game",
+                "subtitle": "When to Open the Envelope",
+                "content": "Discuss and agree on the one condition that will allow each of you to break the seal. This rule must be the same for both of you. It could be an emotional state or a specific situation.",
+                "ideas": [
+                    "\"Open when you feel like you're alone\"",
+                    "\"Open after our silliest fight\"",
+                    "\"Open on the day the rain outside is the grimmest and gloomiest\""
+                ]
+            },
+            {
+                "number": 4,
+                "title": "The Final Act",
+                "subtitle": "The Time Capsule",
+                "content": "Pick a special place for your letters—a beautiful decorative box, an old wine crate, or a secret shelf in the bookcase—where they will wait for their moment.",
+                "ideas": [
+                    "Take a photo as you place the letters into their \"vault.\" That picture will be the very first exhibit in your future \"Gallery of Warm Memories\""
+                ]
+            }
+        ]
+    },
+    "starrynight": {
+        "title": "Starry Night Contemplation",
+        "subtitle": "Date Plan",
+        "heroTitle": "Under the Cosmos",
+        "heroSubtitle": "Escape the city lights and find a quiet spot to gaze at the stars together. Bring blankets, hot drinks, and simply exist under the infinite sky.",
+        "sectionTitle": "The Experience: \"Connected to Something Bigger\"",
+        "dresscode": {
+            "title": "Dress Code & Vibe",
+            "subtitle": "Stay Warm, Stay Wonder-Filled",
+            "description": "Layer up! Think warm jackets, cozy scarves, and comfortable shoes. You'll be lying down, so bring extra blankets or a sleeping bag."
+        },
+        "checklist": [
+            {
+                "title": "Stargazing Essentials",
+                "items": ["Blankets or sleeping bags", "Pillows", "Thermos with hot drinks", "Snacks"]
+            },
+            {
+                "title": "Optional Enhancements",
+                "items": ["Star chart or astronomy app", "Telescope or binoculars", "Portable speaker for ambient music", "Flashlight with red filter"]
+            },
+            {
+                "title": "Comfort Items",
+                "items": ["Extra layers of clothing", "Hand warmers", "Insect repellent (if needed)", "Comfortable mat or pad"]
+            }
+        ],
+        "topics": [
+            "What do you think about when you look at the stars?",
+            "If you could visit any planet, which would you choose?",
+            "Share your biggest dream or aspiration",
+            "Talk about moments that made you feel small in a good way",
+            "Discuss what infinity means to you",
+            "Share childhood memories about space or the night sky"
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "title": "Find Your Spot",
+                "subtitle": "Location Scouting",
+                "content": "Research and drive to a location away from city lights. Parks, hills, or open fields work best. Check the weather forecast and moon phase—new moon nights offer the darkest skies.",
+                "ideas": [
+                    "Use light pollution maps online to find the darkest spots near you",
+                    "Arrive before sunset to set up your cozy nest while you still have light"
+                ]
+            },
+            {
+                "number": 2,
+                "title": "Get Comfortable",
+                "subtitle": "Creating Your Sky Theater",
+                "content": "Lay out your blankets and arrange pillows. You want to be able to lie back comfortably for extended periods. Pour your hot drinks and settle in.",
+                "ideas": [
+                    "Create a little fort with blankets if it's chilly",
+                    "Position yourselves so you're shoulder to shoulder or can hold hands easily"
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Silent Observation",
+                "subtitle": "Just Be",
+                "content": "Start with 15-20 minutes of quiet stargazing. No talking, just looking. Let your eyes adjust to the darkness and notice how many more stars appear.",
+                "ideas": [
+                    "Try to find shooting stars—make wishes together",
+                    "Count satellites crossing the sky"
+                ]
+            },
+            {
+                "number": 4,
+                "title": "Deep Conversations",
+                "subtitle": "Questions Under the Stars",
+                "content": "The vastness of the universe has a way of making us philosophical. Share your thoughts, dreams, fears, and wonders. There's something about the stars that makes vulnerability easier.",
+                "ideas": [
+                    "Take turns sharing what you're grateful for",
+                    "Discuss where you see yourselves in 5, 10, 20 years"
+                ]
+            }
+        ]
+    },
+    "example3": {
+        "title": "Your Third Date Idea",
+        "subtitle": "Date Plan",
+        "heroTitle": "Title Here",
+        "heroSubtitle": "Description here...",
+        "sectionTitle": "The Process",
+        "dresscode": {
+            "title": "Dress Code & Vibe",
+            "subtitle": "What to Wear",
+            "description": "Dress code description here..."
+        },
+        "checklist": [
+            {
+                "title": "Category 1",
+                "items": ["Item 1", "Item 2", "Item 3"]
+            }
+        ],
+        "topics": [
+            "Topic 1",
+            "Topic 2",
+            "Topic 3"
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "title": "Step Title",
+                "subtitle": "Step Subtitle",
+                "content": "Step description...",
+                "ideas": ["Idea 1", "Idea 2"]
+            }
+        ]
+    }
+}
