@@ -775,117 +775,124 @@
             }
         }
 
-        function renderContent(content) {
-            // Update page title
-            document.getElementById('page-title').textContent = content.title;
-            
-            // Update hero section
-            document.getElementById('heroTitle').textContent = content.heroTitle;
-            document.getElementById('heroSubtitle').textContent = content.heroSubtitle;
+function renderContent(content) {
+    document.getElementById('page-title').textContent = content.title;
+    document.getElementById('heroTitle').textContent = content.heroTitle;
+    document.getElementById('heroSubtitle').textContent = content.heroSubtitle;
 
-            // Build main content
-            let html = `
-                <!-- Introduction -->
-                <div class="intro-section">
-                    <p class="intro-text">${content.heroSubtitle}</p>
+    let html = `
+        <!-- Introduction -->
+        <div class="intro-section">
+            <p class="intro-text">${content.heroSubtitle}</p>
+        </div>
+
+        <!-- Checklist Section -->
+        <div class="checklist-section">
+            <div class="section-header">
+                <span class="section-icon">✉️</span>
+                <h2 class="section-title">Getting Ready</h2>
+            </div>
+            <ul class="checklist">
+    `;
+
+    // Add checklist items
+    content.checklist.forEach(item => {
+        html += `
+            <li class="checklist-item">
+                <div class="checklist-title">${item.title}</div>
+                <div class="checklist-description">${item.items.join(', ')}</div>
+            </li>
+        `;
+    });
+
+    html += `
+            </ul>
+        </div>
+
+        <!-- Dress Code Section -->
+        <div class="dresscode-section">
+            <div class="section-header">
+                <span class="section-icon">👗</span>
+                <h2 class="section-title">Dress Code</h2>
+            </div>
+            <div class="dresscode-grid">
+    `;
+
+    // Add dresscode cards with different emojis
+    content.dresscode.forEach(dress => {
+        html += `
+            <div class="dresscode-card">
+                <div class="dresscode-emoji">${dress.emoji}</div>
+                <div class="dresscode-title">${dress.title}</div>
+                <div class="dresscode-desc">${dress.description}</div>
+            </div>
+        `;
+    });
+
+    html += `
+            </div>
+        </div>
+    `;
+
+    // Conditionally add topics section
+    if (content.topics && content.topics.show) {
+        html += `
+            <!-- Topics Section -->
+            <div class="writing-topics">
+                <div class="section-header">
+                    <span class="section-icon">${content.topics.icon}</span>
+                    <h2 class="section-title">${content.topics.title}</h2>
                 </div>
+                <ul class="topic-list">
+        `;
 
-                <!-- Checklist Section -->
-                <div class="checklist-section">
-                    <div class="section-header">
-                        <span class="section-icon">✉️</span>
-                        <h2 class="section-title">Getting Ready</h2>
-                    </div>
-                    <ul class="checklist">
-            `;
+        content.topics.items.forEach(topic => {
+            html += `<li>${topic}</li>`;
+        });
 
-            // Add checklist items
-            content.checklist.forEach(item => {
-                html += `
-                    <li class="checklist-item">
-                        <div class="checklist-title">${item.title}</div>
-                        <div class="checklist-description">${item.items.join(', ')}</div>
-                    </li>
-                `;
-            });
+        html += `
+                </ul>
+            </div>
+        `;
+    }
 
-            html += `
+    // Process Steps Section
+    html += `
+        <div class="dateplan-section">
+            <div class="section-header">
+                <span class="section-icon">🖋️</span>
+                <h2 class="section-title">${content.sectionTitle}</h2>
+            </div>
+    `;
+
+    content.steps.forEach(step => {
+        html += `
+            <div class="process-step">
+                <div class="step-number">${step.number}</div>
+                <h3 class="step-title">${step.title}</h3>
+                <p class="step-subtitle">${step.subtitle}</p>
+                <p class="step-content">${step.content}</p>
+                <div class="idea-box">
+                    <div class="idea-box-title">Ideas to Elevate It</div>
+                    <ul class="idea-list">
+        `;
+
+        step.ideas.forEach(idea => {
+            html += `<li>${idea}</li>`;
+        });
+
+        html += `
                     </ul>
                 </div>
+            </div>
+        `;
+    });
 
-                <!-- Dress Code Section -->
-                <div class="dresscode-section">
-                    <div class="section-header">
-                        <span class="section-icon">👗</span>
-                        <h2 class="section-title">Dress Code</h2>
-                    </div>
-                    <div class="dresscode-grid">
-                        <div class="dresscode-card">
-                            <div class="dresscode-emoji">🧸</div>
-                            <div class="dresscode-title">Cozy & Comfortable</div>
-                            <div class="dresscode-desc">${content.dresscode.description}</div>
-                        </div>
-                    </div>
-                </div>
+    html += `</div>`;
 
-                <!-- Topics Section -->
-                <div class="writing-topics">
-                    <div class="section-header">
-                        <span class="section-icon">📋</span>
-                        <h2 class="section-title">What to Talk About</h2>
-                    </div>
-                    <ul class="topic-list">
-            `;
-
-            // Add topics
-            content.topics.forEach(topic => {
-                html += `<li>${topic}</li>`;
-            });
-
-            html += `
-                    </ul>
-                </div>
-
-                <!-- Process Steps Section -->
-                <div class="dateplan-section">
-                    <div class="section-header">
-                        <span class="section-icon">🖋️</span>
-                        <h2 class="section-title">${content.sectionTitle}</h2>
-                    </div>
-            `;
-
-            // Add process steps
-            content.steps.forEach(step => {
-                html += `
-                    <div class="process-step">
-                        <div class="step-number">${step.number}</div>
-                        <h3 class="step-title">${step.title}</h3>
-                        <p class="step-subtitle">${step.subtitle}</p>
-                        <p class="step-content">${step.content}</p>
-                        <div class="idea-box">
-                            <div class="idea-box-title">Ideas to Elevate It</div>
-                            <ul class="idea-list">
-                `;
-
-                step.ideas.forEach(idea => {
-                    html += `<li>${idea}</li>`;
-                });
-
-                html += `
-                            </ul>
-                        </div>
-                    </div>
-                `;
-            });
-
-            html += `</div>`;
-
-            // Insert content
-            document.getElementById('mainContainer').innerHTML = html;
-
-            // Initialize scroll animations
-            initScrollAnimations();
-        }
+    document.getElementById('mainContainer').innerHTML = html;
+    initScrollAnimations();
+}
 
         function showError(message) {
             document.getElementById('heroTitle').textContent = 'Oops!';
