@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Date Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --text-dark: #1a1a1a;
+            --text-light: #666666;
+            --bg-body: #fafafa;
+            --bg-card: #ffffff;
+            --border-color: #e0e0e0;
+            --accent-color: #000000;
+            
+            /* Colorful palette */
+            --color-blue: #94BFF5;
+            --color-green: #267E53;
+            --color-orange: #F5793B;
+            --color-pink: #F29CBD;
+            --color-yellow: #FCDA59;
+        }
+
+        [data-theme="dark"] {
+            --text-dark: #e8e8e8;
+            --text-light: #a0a0a0;
+            --bg-body: #0a0a0a;
+            --bg-card: #1a1a1a;
+            --border-color: #333333;
+            --accent-color: #ffffff;
+        }
+
+        [data-theme="dark"] .background-shapes {
+            opacity: 0.03;
+        }
+
+        [data-theme="dark"] .doodle-container {
+            opacity: 0.1;
+        }
+
+        [data-theme="dark"] .section {
+            background: var(--bg-card);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        [data-theme="dark"] .feedback-card {
+            background: var(--bg-card);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        [data-theme="dark"] .preparation-item {
+            background: #222222;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(1) {
+            border-color: var(--color-blue);
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(2) {
+            border-color: var(--color-pink);
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(3) {
+            border-color: var(--color-yellow);
+        }
+
+        [data-theme="dark"] .checkbox-icon {
+            background: #2a2a2a;
+            border-color: #444444;
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(1) .checkbox-icon {
+            border-color: var(--color-blue);
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(2) .checkbox-icon {
+            border-color: var(--color-pink);
+        }
+
+        [data-theme="dark"] .preparation-item:nth-child(3) .checkbox-icon {
+            border-color: var(--color-yellow);
+        }
+
+        [data-theme="dark"] .dresscode-card {
+            background: #222222;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .dresscode-card:hover {
+            border-color: var(--color-blue);
+        }
+
+        [data-theme="dark"] .topic-list li {
+            background: #222222;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .topic-list li:hover {
+            border-color: var(--color-pink);
+        }
+
+        [data-theme="dark"] .timeline-dot {
+            background: #1a1a1a;
+        }
+
+        [data-theme="dark"] .idea-box {
+            border-top-color: #333333;
+        }
+
+        [data-theme="dark"] .toggle-track {
+            background: #222222;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .hero-bg-element {
+            border-color: #222222;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--bg-body);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            position: relative;
+        }
+
+        /* Colorful organic background shapes */
+        .background-shapes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+            opacity: 0.08;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50% 40% 60% 50%;
+            will-change: transform;
+            animation: float-organic 20s infinite ease-in-out;
+        }
+
+        .shape-1 {
+            width: 400px;
+            height: 400px;
+            background: var(--color-blue);
+            top: -100px;
+            left: -100px;
+            animation-delay: 0s;
+        }
+
+        .shape-2 {
+            width: 300px;
+            height: 350px;
+            background: var(--color-pink);
+            top: 20%;
+            right: -80px;
+            animation-delay: -5s;
+            border-radius: 60% 40% 50% 60%;
+        }
+
+        .shape-3 {
+            width: 450px;
+            height: 400px;
+            background: var(--color-yellow);
+            bottom: -150px;
+            left: 10%;
+            animation-delay: -10s;
+            border-radius: 40% 60% 50% 50%;
+        }
+
+        .shape-4 {
+            width: 320px;
+            height: 320px;
+            background: var(--color-orange);
+            top: 50%;
+            right: 15%;
+            animation-delay: -15s;
+            border-radius: 50% 50% 40% 60%;
+        }
+
+        .shape-5 {
+            width: 280px;
+            height: 300px;
+            background: var(--color-green);
+            bottom: 15%;
+            right: 5%;
+            animation-delay: -8s;
+            border-radius: 60% 50% 60% 40%;
+        }
+
+        @keyframes float-organic {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+                border-radius: 50% 40% 60% 50%;
+            }
+            25% {
+                transform: translate(30px, -30px) rotate(5deg);
+                border-radius: 40% 60% 50% 60%;
+            }
+            50% {
+                transform: translate(-20px, 20px) rotate(-3deg);
+                border-radius: 60% 50% 40% 50%;
+            }
+            75% {
+                transform: translate(25px, 15px) rotate(4deg);
+                border-radius: 50% 60% 50% 40%;
+            }
+        }
+
+        /* Hand-drawn decorative elements */
+        .doodle-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            opacity: 0.2;
+        }
+
+        .doodle {
+            position: absolute;
+            stroke: var(--text-light);
+            fill: none;
+            stroke-width: 2;
+            stroke-linecap: round;
+        }
+
+        .hero-section,
+        .main-content,
+        .feedback-section,
+        .footer {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--accent-color);
+        }
+
+        .theme-toggle-icon {
+            font-size: 1.25rem;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg-element {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            opacity: 0.3;
+            will-change: transform;
+        }
+
+        .hero-bg-element:nth-child(1) {
+            top: 10%;
+            right: 10%;
+        }
+
+        .hero-bg-element:nth-child(2) {
+            bottom: 20%;
+            left: 5%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-light);
+            font-weight: 400;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Section Styling - White Cards */
+        .section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        /* Preparation Checklist - Colorful */
+        .preparation-checklist {
+            list-style: none;
+            padding: 0;
+            max-width: 700px;
+        }
+
+        .preparation-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: var(--bg-card);
+            border: 2px solid transparent;
+        }
+
+        .preparation-item:nth-child(1) {
+            border-color: var(--color-blue);
+        }
+
+        .preparation-item:nth-child(2) {
+            border-color: var(--color-pink);
+        }
+
+        .preparation-item:nth-child(3) {
+            border-color: var(--color-yellow);
+        }
+
+        .preparation-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .preparation-emoji {
+            font-size: 2rem;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
+        .checkbox-wrapper {
+            position: relative;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .checkbox-icon {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--border-color);
+            border-radius: 6px;
+            position: relative;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .preparation-item:nth-child(1) .checkbox-icon {
+            border-color: var(--color-blue);
+        }
+
+        .preparation-item:nth-child(2) .checkbox-icon {
+            border-color: var(--color-pink);
+        }
+
+        .preparation-item:nth-child(3) .checkbox-icon {
+            border-color: var(--color-yellow);
+        }
+
+        .preparation-item:nth-child(1):hover .checkbox-icon,
+        .preparation-item:nth-child(1).checked .checkbox-icon {
+            background: var(--color-blue);
+            border-color: var(--color-blue);
+        }
+
+        .preparation-item:nth-child(2):hover .checkbox-icon,
+        .preparation-item:nth-child(2).checked .checkbox-icon {
+            background: var(--color-pink);
+            border-color: var(--color-pink);
+        }
+
+        .preparation-item:nth-child(3):hover .checkbox-icon,
+        .preparation-item:nth-child(3).checked .checkbox-icon {
+            background: var(--color-yellow);
+            border-color: var(--color-yellow);
+        }
+
+        .checkbox-icon::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+
+        .preparation-item.checked .checkbox-icon::after {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .preparation-content {
+            flex: 1;
+        }
+
+        .preparation-title {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .preparation-description {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Dress Code Grid */
+        .dresscode-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+            max-width: 600px;
+        }
+
+        .dresscode-card {
+            border: 1px solid var(--border-color);
+            padding: 1.25rem 1rem;
+            text-align: center;
+            transition: border-color 0.3s ease;
+        }
+
+        .dresscode-card:hover {
+            border-color: var(--accent-color);
+        }
+
+        .dresscode-emoji {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .dresscode-title {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.4rem;
+            font-size: 0.85rem;
+        }
+
+        .dresscode-desc {
+            color: var(--text-light);
+            font-size: 0.75rem;
+            line-height: 1.4;
+        }
+
+        /* Topics List */
+        .topic-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .topic-list li {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .topic-list li:hover {
+            border-color: var(--color-blue);
+            transform: translateX(5px);
+        }
+
+        /* Process Steps - Timeline Style with Collapsible Steps */
+        .process-timeline {
+            position: relative;
+            padding-left: 60px;
+            margin-top: 3rem;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, 
+                var(--color-blue) 0%, 
+                var(--color-pink) 25%,
+                var(--color-orange) 50%,
+                var(--color-yellow) 75%,
+                var(--color-green) 100%);
+            opacity: 0.3;
+        }
+
+        .process-step {
+            position: relative;
+            padding: 0 0 3rem 0;
+            border: none;
+        }
+
+        .process-step:last-child {
+            padding-bottom: 0;
+        }
+
+        /* Hide collapsed steps */
+        .process-step.collapsed .step-content-wrapper {
+            display: none;
+        }
+
+        .process-step.collapsed {
+            padding-bottom: 2rem;
+        }
+
+        .step-header {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -60px;
+            top: 8px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: white;
+            border: 3px solid var(--border-color);
+            z-index: 1;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .timeline-dot:hover {
+            transform: scale(1.3);
+        }
+
+        .process-step:nth-child(1) .timeline-dot {
+            border-color: var(--color-blue);
+        }
+
+        .process-step:nth-child(2) .timeline-dot {
+            border-color: var(--color-pink);
+        }
+
+        .process-step:nth-child(3) .timeline-dot {
+            border-color: var(--color-orange);
+        }
+
+        .process-step:nth-child(4) .timeline-dot {
+            border-color: var(--color-yellow);
+        }
+
+        .process-step:nth-child(5) .timeline-dot {
+            border-color: var(--color-green);
+        }
+
+        /* Active/expanded state */
+        .process-step.active .timeline-dot {
+            transform: scale(1.2);
+        }
+
+        .process-step:nth-child(1).active .timeline-dot {
+            background: var(--color-blue);
+        }
+
+        .process-step:nth-child(2).active .timeline-dot {
+            background: var(--color-pink);
+        }
+
+        .process-step:nth-child(3).active .timeline-dot {
+            background: var(--color-orange);
+        }
+
+        .process-step:nth-child(4).active .timeline-dot {
+            background: var(--color-yellow);
+        }
+
+        .process-step:nth-child(5).active .timeline-dot {
+            background: var(--color-green);
+        }
+
+        .step-number {
+            display: inline-block;
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: var(--text-dark);
+            margin-bottom: 0rem;
+            letter-spacing: -0.02em;
+            margin-right: 1rem;
+        }
+
+        .step-number-small {
+            font-size: 1.5rem;
+            color: var(--text-light);
+            opacity: 0.5;
+        }
+
+        .process-step.active .step-number {
+            opacity: 1;
+        }
+
+        .process-step.collapsed .step-number {
+            color: var(--text-light);
+        }
+
+        .step-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+        }
+
+        .step-subtitle {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-style: normal;
+            letter-spacing: -0.01em;
+        }
+
+        .step-content-wrapper {
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .step-content {
+            color: var(--text-light);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            max-width: 600px;
+        }
+
+        .idea-box {
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .idea-box-title {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .idea-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .idea-list li {
+            color: var(--text-light);
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        .idea-list li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--text-light);
+        }
+
+        /* Feedback Section */
+        .feedback-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .feedback-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .feedback-label {
+            font-size: 1rem;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+            display: block;
+            font-weight: 500;
+        }
+
+        .heart-toggle {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .heart-toggle input[type="checkbox"] {
+            display: none;
+        }
+
+        .toggle-track {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-track:hover {
+            border-color: var(--accent-color);
+        }
+
+        .heart-icon {
+            width: 28px;
+            height: 28px;
+            fill: var(--text-light);
+            transition: all 0.3s ease;
+        }
+
+        .heart-toggle input[type="checkbox"]:checked ~ .toggle-track {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .heart-toggle input[type="checkbox"]:checked ~ .toggle-track .heart-icon {
+            fill: var(--bg-body);
+        }
+
+        .feedback-message {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            min-height: 24px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+            font-size: 1rem;
+            color: var(--text-light);
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #f56565;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-section {
+                min-height: 50vh;
+                padding: 3rem 1.5rem;
+            }
+
+            .main-content {
+                padding: 3rem 1.5rem;
+            }
+
+            .section {
+                margin-bottom: 2rem;
+                padding: 2rem 1.5rem;
+            }
+
+            .process-timeline {
+                padding-left: 40px;
+            }
+
+            .timeline-dot {
+                left: -40px;
+            }
+
+            .process-step {
+                padding-bottom: 2.5rem;
+            }
+
+            .dresscode-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .step-number {
+                font-size: 2rem;
+            }
+
+            .feedback-card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Colorful Background Shapes -->
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+
+    <!-- Hand-drawn Doodles Background -->
+    <div class="doodle-container">
+        <svg class="doodle" style="top: 15%; left: 10%; width: 120px; height: 120px;" viewBox="0 0 100 100">
+            <path d="M10,50 Q30,20 50,50 T90,50" stroke-dasharray="3,4"/>
+        </svg>
+        <svg class="doodle" style="top: 60%; right: 15%; width: 100px; height: 100px;" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" stroke-dasharray="4,5"/>
+        </svg>
+        <svg class="doodle" style="bottom: 25%; left: 25%; width: 90px; height: 90px;" viewBox="0 0 100 100">
+            <path d="M20,50 Q50,10 80,50 Q50,90 20,50" stroke-dasharray="2,3"/>
+        </svg>
+        <svg class="doodle" style="top: 35%; right: 8%; width: 70px; height: 70px;" viewBox="0 0 100 100">
+            <path d="M10,10 L90,90 M90,10 L10,90" stroke-dasharray="3,3"/>
+        </svg>
+        <svg class="doodle" style="bottom: 40%; left: 12%; width: 85px; height: 85px;" viewBox="0 0 100 100">
+            <rect x="20" y="20" width="60" height="60" rx="10" stroke-dasharray="4,4"/>
+        </svg>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-toggle-icon">◐</span>
+    </button>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-bg-element parallax-slow"></div>
+        <div class="hero-bg-element parallax-slow"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" id="heroTitle">Loading...</h1>
+            <p class="hero-subtitle" id="heroSubtitle"></p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div id="mainContainer">
+            <div class="loading">Loading your date plan...</div>
+        </div>
+    </div>
+
+    <!-- Feedback Section -->
+    <div class="feedback-section">
+        <div class="feedback-card">
+            <label class="feedback-label">Did you like this date?</label>
+            <label class="heart-toggle">
+                <input type="checkbox" id="likeToggle">
+                <span class="toggle-track">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
+                                 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09
+                                 C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5
+                                 c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </span>
+            </label>
+            <div class="feedback-message" id="feedbackMessage"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Made with care for your special moments</p>
+    </div>
+
+    <script>
+        // Get the date ID from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const dateId = urlParams.get('date');
+
+        // Load content from JSON
+        async function loadContent() {
+            try {
+                const response = await fetch('content.json');
+                const data = await response.json();
+                
+                if (!dateId || !data[dateId]) {
+                    showError('Date plan not found. Please check your code.');
+                    return;
+                }
+
+                const content = data[dateId];
+                renderContent(content);
+            } catch (error) {
+                showError('Failed to load content. Please try again.');
+                console.error('Error loading content:', error);
+            }
+        }
+
+        function renderContent(content) {
+            document.getElementById('page-title').textContent = content.title;
+            document.getElementById('heroTitle').textContent = content.heroTitle;
+            document.getElementById('heroSubtitle').textContent = content.heroSubtitle;
+
+            // Define emojis for preparation items
+            const preparationEmojis = ['✨', '🎨', '💡'];
+
+            let html = `
+                <!-- Preparation Checklist Section -->
+                <div class="section">
+                    <h2 class="section-title">Preparation</h2>
+                    <ul class="preparation-checklist">
+            `;
+
+            content.checklist.forEach((item, index) => {
+                html += `
+                    <li class="preparation-item" onclick="this.classList.toggle('checked')">
+                        <span class="preparation-emoji">${preparationEmojis[index] || '✨'}</span>
+                        <div class="checkbox-wrapper">
+                            <div class="checkbox-icon"></div>
+                        </div>
+                        <div class="preparation-content">
+                            <div class="preparation-title">${item.title}</div>
+                            <div class="preparation-description">${item.items.join(', ')}</div>
+                        </div>
+                    </li>
+                `;
+            });
+
+            html += `
+                    </ul>
+                </div>
+
+                <!-- Dress Code Section -->
+                <div class="section">
+                    <h2 class="section-title">Dress Code</h2>
+                    <div class="dresscode-grid">
+            `;
+
+            content.dresscode.forEach(dress => {
+                html += `
+                    <div class="dresscode-card">
+                        <span class="dresscode-emoji">${dress.emoji}</span>
+                        <div class="dresscode-title">${dress.title}</div>
+                        <div class="dresscode-desc">${dress.description}</div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            // Conditionally add topics section
+            if (content.topics && content.topics.show) {
+                html += `
+                    <div class="section">
+                        <h2 class="section-title">${content.topics.title}</h2>
+                        <ul class="topic-list">
+                `;
+
+                content.topics.items.forEach(topic => {
+                    html += `<li>${topic}</li>`;
+                });
+
+                html += `
+                        </ul>
+                    </div>
+                `;
+            }
+
+            // Process Steps Timeline Section
+            html += `
+                <div class="section">
+                    <h2 class="section-title">${content.sectionTitle}</h2>
+                    <div class="process-timeline">
+                        <div class="timeline-line"></div>
+            `;
+
+            content.steps.forEach((step, index) => {
+                const isFirstStep = index === 0;
+                const collapsedClass = isFirstStep ? 'active' : 'collapsed';
+                
+                html += `
+                    <div class="process-step ${collapsedClass}" data-step="${index}">
+                        <div class="timeline-dot" onclick="toggleStep(${index})"></div>
+                        <div class="step-header" onclick="toggleStep(${index})">
+                            <div class="step-number">${String(step.number).padStart(2, '0')}</div>
+                            <div>
+                                <h3 class="step-title">${step.subtitle}</h3>
+                                <p class="step-subtitle">${step.title}</p>
+                            </div>
+                        </div>
+                        <div class="step-content-wrapper">
+                            <p class="step-content">${step.content}</p>
+                            <div class="idea-box">
+                                <div class="idea-box-title">Ideas to Elevate It</div>
+                                <ul class="idea-list">
+                `;
+
+                step.ideas.forEach(idea => {
+                    html += `<li>${idea}</li>`;
+                });
+
+                html += `
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('mainContainer').innerHTML = html;
+        }
+
+        function showError(message) {
+            document.getElementById('heroTitle').textContent = 'Oops!';
+            document.getElementById('heroSubtitle').textContent = message;
+            document.getElementById('mainContainer').innerHTML = `
+                <div class="error-message">
+                    <h2>${message}</h2>
+                    <p>Please return to the code entry page and try again.</p>
+                </div>
+            `;
+        }
+
+        // Toggle step visibility
+        function toggleStep(stepIndex) {
+            const allSteps = document.querySelectorAll('.process-step');
+            const clickedStep = allSteps[stepIndex];
+            
+            // Toggle the clicked step
+            if (clickedStep.classList.contains('collapsed')) {
+                clickedStep.classList.remove('collapsed');
+                clickedStep.classList.add('active');
+            } else {
+                clickedStep.classList.remove('active');
+                clickedStep.classList.add('collapsed');
+            }
+        }
+
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const html = document.documentElement;
+
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        themeIcon.textContent = currentTheme === 'dark' ? '◑' : '◐';
+
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeIcon.textContent = newTheme === 'dark' ? '◑' : '◐';
+        });
+
+        // Like Toggle
+        const likeToggle = document.getElementById('likeToggle');
+        const feedbackMessage = document.getElementById('feedbackMessage');
+
+        likeToggle.addEventListener('change', function() {
+            const isLiked = this.checked;
+            
+            if (isLiked) {
+                feedbackMessage.textContent = 'Thank you for your feedback';
+            } else {
+                feedbackMessage.textContent = '';
+            }
+
+            console.log('Feedback recorded:', {
+                liked: isLiked,
+                dateId: dateId,
+                timestamp: new Date().toISOString()
+            });
+        });
+
+        // Parallax Effects
+        let ticking = false;
+        
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    
+                    // Parallax hero background elements
+                    const heroBgElements = document.querySelectorAll('.parallax-slow');
+                    heroBgElements.forEach((element, index) => {
+                        const speed = 0.3 + (index * 0.1);
+                        element.style.transform = `translate(-50%, -50%) translateY(${scrolled * speed}px)`;
+                    });
+                    
+                    // Parallax doodles
+                    const doodles = document.querySelectorAll('.doodle');
+                    doodles.forEach((doodle, index) => {
+                        const speed = 0.1 + (index * 0.05);
+                        doodle.style.transform = `translateY(${scrolled * speed}px)`;
+                    });
+
+                    // Parallax background shapes
+                    const shapes = document.querySelectorAll('.shape');
+                    shapes.forEach((shape, index) => {
+                        const speed = 0.05 + (index * 0.02);
+                        const currentTransform = shape.style.transform || '';
+                        if (currentTransform.includes('translate')) {
+                            shape.style.transform = currentTransform + ` translateY(${scrolled * speed}px)`;
+                        }
+                    });
+                    
+                    ticking = false;
+                });
+                
+                ticking = true;
+            }
+        });
+
+        // Load content when page loads
+        loadContent();
+    </script>
+</body>
+</html>
