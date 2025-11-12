@@ -877,6 +877,114 @@
                 ]
             }
         ]
-    }
+    },
+
+    "temporaryink": {
+    "title": "Temporary Ink - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Temporary Ink",
+    "heroSubtitle": "Today you'll create paintings that can't be hung on a wall—because they live on the body. An evening about attention, contact, and inspiration",
+    "sectionTitle": "The Process: \"Body as Art Form\"",
+    "checklist": [
+      {
+        "title": "Space",
+        "items": [
+          "Create a cozy 'studio': cover the floor or bed with fabric",
+          "place a bowl of warm water nearby",
+          "soft towels",
+          "napkins"
+        ]
+      },
+      {
+        "title": "Props",
+        "items": [
+          "Body paints or face paint (can add gold or pearlescent accents)",
+          "brushes of different sizes, sponges, cotton swabs",
+          "timer or music playlist",
+          "mirror to admire the results"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Warm lighting",
+          "instrumental music with rhythm that helps concentration",
+          "light chill or soundtracks (In the Mood for Love, Massive Attack, Alt-J)",
+          "add scent: sandalwood, vanilla, or orange zest"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🎨",
+        "title": "Artist and Canvas",
+        "description": "White shirt, open shoulders or back"
+      },
+      {
+        "emoji": "👕",
+        "title": "Creative Studio",
+        "description": "Old t-shirts and shorts you don't mind getting dirty"
+      },
+      {
+        "emoji": "🧘",
+        "title": "Minimalism",
+        "description": "Just a blanket or towel, keeping skin exposed"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Warm-Up: \"Guess the Drawing\"",
+        "subtitle": "Awakening Touch and Attention",
+        "content": "One person closes their eyes, the other draws simple shapes—a star, zigzag, spiral, arrow, letter. The task is to guess what's being drawn.",
+        "ideas": [
+          "Try drawing everything on one body area—for example, on the back or stomach, to 'awaken' touch and attention"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Silent Canvas: \"I Draw What I Feel\"",
+        "subtitle": "Pure Creativity",
+        "content": "Now guessing stops, and pure creativity begins. One person is the canvas, the other is the artist. The artist draws what they feel in the moment: not a subject, but a mood. These can be lines, strokes, spots—anything that reflects inner rhythm. While one draws, the other listens to music, focusing on sensations.",
+        "ideas": [
+          "Try drawing to music—let each track dictate its own color and movement",
+          "Choose a body part—for example, arm, back, leg—and turn it into a 'mini-painting'"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Reflection: \"Your Mark on Me\"",
+        "subtitle": "Drawing Your Partner",
+        "content": "Now you switch roles. But this time the artist doesn't draw what they feel inside, but how they perceive their partner—their energy, mood, character. To stay focused, use these prompts:",
+        "ideas": [
+          "\"I draw only with round shapes\"—about your partner's softness and tenderness",
+          "\"Only in blue\"—about their favorite color",
+          "\"As if my partner is an element\" (fire, water, air, earth)",
+          "You can set a time limit—for example, 5 minutes per drawing, so you don't overthink and draw intuitively"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Photograph Your Artwork",
+        "subtitle": "Preserving the Moment",
+        "content": "When a drawing is on the body—it lives briefly. Photos help preserve this moment, mood, and see yourself through another's eyes. Have a small photoshoot of each other.",
+        "ideas": [
+          "You can create interesting titles for your drawings, as if in a contemporary art gallery"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Final Touch: \"Washing Away, Leaving Behind\"",
+        "subtitle": "Gentle Closure",
+        "content": "Carefully wash off the paint from each other with warm water, sponge, or cloth. Do this slowly, as a continuation of the ritual. Then wrap yourselves in towels or blankets, make tea.",
+        "ideas": [
+          "Discuss what you felt during the process, which drawings resonated most, what surprised you about seeing yourself as art"
+        ]
+      }
+    ]
+  }
    
 }
