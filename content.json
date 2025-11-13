@@ -21,24 +21,24 @@
         ],
         "dresscode": [
             {
-                "emoji": "🧸",
+                "emoji": "ðŸ§¸",
                 "title": "Keepers of the Cozy",
                 "description": "Fluffy robes, warm blankets, and woolly socks"
             },
             {
-                "emoji": "☔",
+                "emoji": "â˜”",
                 "title": "Rainy Day Poets",
                 "description": "Oversized sweaters, reading glasses, and a thoughtful mood"
             },
             {
-                "emoji": "🌙",
+                "emoji": "ðŸŒ™",
                 "title": "Pajama Classic",
                 "description": "Your most loved, most comfortable pajamas"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "📋",
+            "icon": "ðŸ“‹",
             "title": "What to Write About",
             "items": [
                 "Recall a moment when you felt truly proud of your partner",
@@ -83,889 +83,304 @@
                 "number": 4,
                 "title": "The Final Act",
                 "subtitle": "The Time Capsule",
-                "content": "Pick a special place for your letters—a beautiful decorative box, an old wine crate, or a secret shelf in the bookcase—where they will wait for their moment.",
+                "content": "Pick a special place for your lettersâ€”a beautiful decorative box, an old wine crate, or a secret shelf in the bookcaseâ€”where they will wait for their moment.",
                 "ideas": [
                     "Take a photo as you place the letters into their \"vault.\" That picture will be the very first exhibit in your future \"Gallery of Warm Memories\""
                 ]
             }
         ]
     },
-    "cinemarevelation": {
-        "title": "Cinema Revelation - Date Plan",
+    "silentcinema": {
+        "title": "Silent Cinema at Home - Date Plan",
         "subtitle": "Date Plan",
-        "heroTitle": "Cinema Revelation",
-        "heroSubtitle": "This evening isn't just about movies—it's a chance to know each other more deeply through the stories that shaped you",
-        "sectionTitle": "The Process: \"Private Screening for Two\"",
+        "heroTitle": "Silent Cinema at Home",
+        "heroSubtitle": "Watch a movie together without sound and create your own hilarious dialogue, sound effects, and plot twists",
+        "sectionTitle": "The Process: \"Directors of Your Own Story\"",
         "checklist": [
             {
-                "title": "Tickets",
-                "items": ["3 films from each person that hold special meaning (from childhood, youth, or connected to an important event)"]
+                "title": "The Tech",
+                "items": ["A laptop or TV", "streaming service or movie file", "mute button at the ready"]
             },
             {
-                "title": "Cinema Bar",
-                "items": ["Popcorn (salty and sweet)", "nachos", "favorite drinks and treats"]
+                "title": "The Snacks",
+                "items": ["Popcorn (obviously!)", "your favorite drinks", "candy or chocolate"]
             },
             {
-                "title": "Atmosphere",
-                "items": ["Curtains drawn", "soft glow of string lights", "soundtracks from favorite films playing in the background"]
+                "title": "The Atmosphere",
+                "items": ["Dim the lights", "get cozy on the couch", "maybe light a candle or two"]
+            },
+            {
+                "title": "Optional Props",
+                "items": ["Toy microphone for \"voice acting\"", "silly hats or costumes", "notebook for writing down the funniest lines"]
             }
         ],
         "dresscode": [
             {
-                "emoji": "🎬",
-                "title": "Red Carpet on the Couch",
-                "description": "Silk pajamas or cozy robes"
+                "emoji": "ðŸŽ¬",
+                "title": "Movie Night Casual",
+                "description": "Comfy loungewear, fun graphic tees, or matching pajamas"
+            },
+            {
+                "emoji": "ðŸŽ­",
+                "title": "Improv Artist",
+                "description": "Whatever makes you feel creative and silly"
+            },
+            {
+                "emoji": "ðŸ¿",
+                "title": "Classic Couch Potato",
+                "description": "Sweatpants, hoodie, and the coziest socks you own"
+            }
+        ],
+        "topics": {
+            "show": false
+        },
+        "steps": [
+            {
+                "number": 1,
+                "title": "Pick Your Film",
+                "subtitle": "The Foundation of Fun",
+                "content": "Choose a movie you've never seen before, or pick a classic you both know well. Action films, romantic comedies, or even documentaries work greatâ€”the more dramatic the visuals, the funnier your commentary will be!",
+                "ideas": [
+                    "Try a foreign film you don't speak the language ofâ€”already silent to you!",
+                    "Pick a movie with over-the-top acting for maximum comedic potential",
+                    "Choose a nature documentary and give the animals ridiculous personalities"
+                ]
+            },
+            {
+                "number": 2,
+                "title": "Set the Rules",
+                "subtitle": "Your Creative Guidelines",
+                "content": "Decide how you'll play: Will you take turns voicing characters? Will one person do dialogue while the other does sound effects? Or will you both improvise together? There's no wrong wayâ€”just have fun!",
+                "ideas": [
+                    "Assign each other specific characters to voice",
+                    "Every 10 minutes, switch who controls the narrative",
+                    "Create a drinking game: take a sip every time you make each other laugh"
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Lights, Camera, Laughter!",
+                "subtitle": "The Performance",
+                "content": "Hit play and mute the volume. Now it's your show! Add silly voices, create absurd dialogue, make sound effects with your mouth, or completely reinvent the plot. The goal is to make each other laugh until your stomach hurts.",
+                "ideas": [
+                    "Give the main character a ridiculous secret mission",
+                    "Make every scene about something completely different (romantic scene becomes a cooking show)",
+                    "Add a running joke that appears in every scene"
+                ]
+            },
+            {
+                "number": 4,
+                "title": "The Highlight Reel",
+                "subtitle": "Remember the Best Moments",
+                "content": "After the movie, talk about your favorite moments. What was the funniest line? The most creative plot twist? Maybe even write down your favorite improvised quotes to remember later.",
+                "ideas": [
+                    "Record a few scenes on your phone to watch back later",
+                    "Create \"awards\" for Best Voice Acting, Funniest Moment, Most Creative Sound Effect",
+                    "Plan to do this again with a completely different genre next time"
+                ]
+            }
+        ]
+    },
+    "kitchendance": {
+        "title": "Kitchen Dance Party - Date Plan",
+        "subtitle": "Date Plan",
+        "heroTitle": "Kitchen Dance Party",
+        "heroSubtitle": "Cook a simple meal together while dancing to your favorite songs and enjoying each other's company in the most carefree way possible",
+        "sectionTitle": "The Process: \"Cooking with Rhythm\"",
+        "checklist": [
+            {
+                "title": "The Food",
+                "items": ["Ingredients for a simple recipe (pasta, tacos, stir-fryâ€”something fun and easy)", "snacks for tasting along the way", "drinks (wine, juice, or fancy mocktails)"]
+            },
+            {
+                "title": "The Music",
+                "items": ["A speaker or phone with good sound", "a collaborative playlist you both create", "upbeat songs that make you want to move"]
+            },
+            {
+                "title": "The Vibe",
+                "items": ["Good lighting (not too dim, not too bright)", "cleared counter space for cooking and dancing", "maybe some fairy lights for extra ambiance"]
+            },
+            {
+                "title": "Optional Fun",
+                "items": ["Matching aprons", "chef hats or bandanas", "a wooden spoon as a microphone"]
+            }
+        ],
+        "dresscode": [
+            {
+                "emoji": "ðŸ‘¨â€ðŸ³",
+                "title": "Chef Chic",
+                "description": "Apron over your favorite casual outfit, maybe a funny chef's hat"
+            },
+            {
+                "emoji": "ðŸ’ƒ",
+                "title": "Dance Floor Ready",
+                "description": "Something comfortable you can move inâ€”leggings, t-shirt, bare feet"
+            },
+            {
+                "emoji": "ðŸŽµ",
+                "title": "Concert Casual",
+                "description": "Your favorite band tee and jeans, ready to rock out"
+            }
+        ],
+        "topics": {
+            "show": true,
+            "icon": "ðŸ’­",
+            "title": "Conversation Starters While Cooking",
+            "items": [
+                "What's your earliest food memory?",
+                "If you could only eat one cuisine for the rest of your life, what would it be?",
+                "What song always makes you want to dance?",
+                "What's the most embarrassing thing you've done while cooking?",
+                "If we had a restaurant together, what would it be called?"
+            ]
+        },
+        "steps": [
+            {
+                "number": 1,
+                "title": "Set the Stage",
+                "subtitle": "Prepare Your Dance Floor Kitchen",
+                "content": "Clear the kitchen counter and floor space. Set up your speaker in a good spot. Lay out your ingredients. Put on your aprons. Most importantlyâ€”start the music! Begin with something upbeat to set the mood.",
+                "ideas": [
+                    "Create a shared playlist together before you startâ€”take turns adding songs",
+                    "Light some candles for atmosphere (safely away from the stove!)",
+                    "Pour your first drinks and toast to a fun evening"
+                ]
+            },
+            {
+                "number": 2,
+                "title": "Cook & Groove",
+                "subtitle": "The Main Event",
+                "content": "Start cooking your meal, but here's the twist: every time a new song comes on, you have to dance together for at least 30 seconds. Stir the pasta? Dance break. Chop vegetables? Dance break. The food is important, but the fun is the priority!",
+                "ideas": [
+                    "Assign each person different tasks, then switch halfway through",
+                    "Use cooking utensils as microphones for impromptu karaoke",
+                    "Take silly photos or videos of each other dancing",
+                    "Slow dance during the slow songs, even if you're holding a spatula"
+                ]
+            },
+            {
+                "number": 3,
+                "title": "Taste Test Interlude",
+                "subtitle": "The Quality Control Dance",
+                "content": "As your food cooks, do taste tests together. Feed each other bites. Adjust the seasoning. Dance between each taste. Make it playfulâ€”exaggerate your reactions to the flavors, give dramatic chef's critiques, have fun with it!",
+                "ideas": [
+                    "Blindfold taste test: can you guess the spices?",
+                    "Rate each other's cooking skills with silly scores",
+                    "Invent a signature dance move for this meal"
+                ]
+            },
+            {
+                "number": 4,
+                "title": "The Grand Finale",
+                "subtitle": "Dinner and More Dancing",
+                "content": "Plate your food beautifully (or messilyâ€”who cares!). Sit down together to eat, but keep the music playing softly. After dinner, clear the dishes together with one more dance party cleanup session. End with a slow dance in your kitchen.",
+                "ideas": [
+                    "Take a photo of your finished meal before eating",
+                    "Make a signature cocktail or mocktail to go with dinner",
+                    "Plan your next Kitchen Dance Party with a different cuisine",
+                    "End the night with your \"couple's song\" as the final dance"
+                ]
+            }
+        ]
+    },
+    "blindtrust": {
+        "title": "Blind Trust - Date Plan",
+        "subtitle": "Date Plan",
+        "heroTitle": "Blind Trust",
+        "heroSubtitle": "Sometimes trust and tenderness are born when we let go of control and allow our loved one to guide us. Transform your home into a symbolic maze where every blindfolded step becomes an exercise in trust, attention, and care.",
+        "sectionTitle": "The Process: \"Path of Trust\"",
+        "checklist": [
+            {
+                "title": "The Route",
+                "items": ["Set up simple stations around your home (couch, table, bed, kitchen)", "Add a small ritual to each station", "Create safe obstacles (pillows, chairs, blanket on floor)"]
+            },
+            {
+                "title": "The Atmosphere",
+                "items": ["Dimmed lights, candles or string lights", "Soft playlist (jazz to gentle electronic)", "Comfortable temperature"]
+            },
+            {
+                "title": "The Inventory",
+                "items": ["Blindfold (or a scarf)", "Small treats (fruits, chocolate)", "Optional small gifts or surprises"]
+            }
+        ],
+        "dresscode": [
+            {
+                "emoji": "🏠",
+                "title": "Home Explorers",
+                "description": "Cozy pajamas that are comfortable for navigating obstacles"
             },
             {
                 "emoji": "🎭",
-                "title": "Couch Critics",
-                "description": "Comfortable sweaters, glasses, and blankets"
+                "title": "Knight and Lady",
+                "description": "One leads, one trusts—add a symbolic accessory (wreath, tie, cape)"
             },
             {
-                "emoji": "🍿",
-                "title": "Blockbuster Heroes",
-                "description": "Fun onesies or pajamas with favorite characters"
+                "emoji": "🤝",
+                "title": "Trust Partners",
+                "description": "Matching comfortable outfits for your journey together"
             }
         ],
         "topics": {
             "show": true,
             "icon": "💭",
-            "title": "Discussion Topics",
+            "title": "Station Ideas",
             "items": [
-                "Why is this film so important to you?",
-                "Which scenes trigger the strongest emotions?",
-                "Which character resonates with you most?",
-                "What personal stories are connected to this movie?",
-                "Which of your mutual friends do the characters remind you of?",
-                "What unexpected sides did you discover in each other?"
+                "Couch: A kiss or short massage",
+                "Table: Objects to guess by touch or a small gift (favorite chocolate)",
+                "Bed: A note hidden under the pillow to read later",
+                "Window: \"Lift your hand and feel the breeze\" for an element of surprise",
+                "Bathroom: Wash hands with warm water as a gesture of care"
             ]
         },
         "steps": [
             {
                 "number": 1,
-                "title": "Pre-Show: Secret Selection",
-                "subtitle": "Choosing Tonight's Feature",
-                "content": "Each person prepares a list of three significant films. Take turns briefly explaining why these movies are dear to you, without revealing everything and without naming your top favorite. After the presentations, each of you chooses one film from your partner's list for tonight's viewing.",
+                "title": "First Steps",
+                "subtitle": "Trust and Listen",
+                "content": "One person puts on the blindfold while the other gently takes their hand and begins guiding them through the room, giving vocal cues and gentle directions.",
                 "ideas": [
-                    "Create an intriguing description for each film on your list, like a movie poster",
-                    "Draw lots if the choice is too difficult"
+                    "Start with simple movements to build confidence",
+                    "Use calm, reassuring voice throughout the journey"
                 ]
             },
             {
                 "number": 2,
-                "title": "First Act: Their Story",
-                "subtitle": "Watching with Intent",
-                "content": "You watch the film chosen from your partner's list. Your task isn't just to follow the plot, but to try to feel why this movie is so important to them. Which scenes trigger emotions? Which character resonates with them?",
+                "title": "Stops of Tenderness",
+                "subtitle": "Rituals at Each Station",
+                "content": "At each point on the route, you've prepared a ritual. It could be a kiss, a small gift to guess by touch, a sip of something delicious, or a moment to feel an unexpected sensation.",
                 "ideas": [
-                    "Keep a notebook handy and discreetly jot down your guesses or moments when your partner reacted strongly",
-                    "Try to guess their favorite quote from the film"
+                    "Vary the experiences: tactile, taste, emotional surprises",
+                    "Take your time at each station—this isn't a race"
                 ]
             },
             {
                 "number": 3,
-                "title": "Intermission: Trading Theories",
-                "subtitle": "The Discussion",
-                "content": "After watching the first film, have a discussion. Start with guesses: \"I think this film speaks to you because...\" Then your partner reveals the real reason and shares personal stories connected to the movie.",
+                "title": "Tactile Cues",
+                "subtitle": "The Language of Touch",
+                "content": "Instead of words, use touch to communicate: a gentle push on the shoulder means step forward, a touch on the arm means turn, a squeeze of the hand means stop. This becomes your language of trust.",
                 "ideas": [
-                    "Create your own rating system: not stars, but maybe \"popcorn kernels\" or \"cozy blankets\"",
-                    "Discuss which of your mutual friends the characters remind you of"
+                    "Establish your touch signals before starting",
+                    "See how little verbal communication you need"
                 ]
             },
             {
                 "number": 4,
-                "title": "Final Act: Our Shared Filmography",
-                "subtitle": "Building Your Collection",
-                "content": "Switch roles, watch the film from your list, and repeat the ritual with discussion. At the end, compare impressions: what unexpected sides did you discover in each other?",
+                "title": "Final Stage",
+                "subtitle": "The Surprise Ending",
+                "content": "The last point on the route is a romantic finale: a slow dance embracing to a song, tea time together, or tasting something delicious while still blindfolded.",
                 "ideas": [
-                    "Start a list in your phone notes or in a beautiful notebook called \"Our Golden Film Collection.\" Add these two films and agree to keep adding to it after each movie night like this"
-                ]
-            }
-        ]
-    },
-    "whisperofpages": {
-        "title": "Whisper of Pages - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Whisper of Pages",
-        "heroSubtitle": "Sometimes, to take a journey, you don't need to leave home. This evening is dedicated to the magic of reading aloud",
-        "sectionTitle": "The Process: \"When the Story Comes Alive\"",
-        "checklist": [
-            {
-                "title": "Script",
-                "items": ["A short story (30-60 minutes of reading) that neither of you knows yet"]
-            },
-            {
-                "title": "Refreshments",
-                "items": ["Hot chocolate", "cocoa with marshmallows", "or mulled wine", "light cookies"]
-            },
-            {
-                "title": "Audience Seating",
-                "items": ["A cozy nest of pillows and blankets", "dim light from a floor lamp or candles"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "📚",
-                "title": "Librarians",
-                "description": "Cozy cardigans, warm socks, and perhaps glasses for gravitas"
-            },
-            {
-                "emoji": "📖",
-                "title": "Storytellers",
-                "description": "Soft pajamas or onesies that make it easy to imagine yourself as a character"
-            },
-            {
-                "emoji": "☕",
-                "title": "Book Club",
-                "description": "Comfortable sweatshirts and blankets you can wrap yourself in completely"
-            }
-        ],
-        "topics": {
-            "show": true,
-            "icon": "📚",
-            "title": "Story Suggestions",
-            "items": [
-                "Ray Bradbury — \"The Vacation\" or \"The Smile\" (short, warm, with a touch of melancholy)",
-                "O. Henry — \"The Gift of the Magi\" (a classic that always touches the heart deeply)",
-                "Alexander Green — \"The Green Lamp\" (a bit fairy-tale-like with faith in dreams)",
-                "Ursula K. Le Guin — \"The Ones Who Walk Away from Omelas\" (short, philosophical, sparks long discussions)",
-                "Haruki Murakami — \"On Seeing the 100% Perfect Girl One Beautiful April Morning\" (tender and slightly absurd)"
-            ]
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Role Distribution: Narrator and Voice",
-                "subtitle": "Setting Up the Performance",
-                "content": "Decide how you'll read. You can take turns—by paragraphs or pages. Or you can create real theater: one reads the author's words, and the other voices the characters.",
-                "ideas": [
-                    "Try changing your voice to portray different characters. Don't be afraid to overact—it's fun!",
-                    "If there are sounds in the story (a door knock, wind howling), act them out"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Diving into the Plot: The Magic of Intonation",
-                "subtitle": "Bringing Words to Life",
-                "content": "Start reading aloud, without rushing. Enjoy the timbre of your partner's voice, pour emotion into the words, play with intonation—from whispers to exclamations. Your goal isn't speed, but atmosphere.",
-                "ideas": [
-                    "Use your phone's flashlight to illuminate the text, creating a mysterious setting",
-                    "Play ambient or instrumental music in the background that fits the story's mood"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Bookmark on the Page: Pause for Thoughts",
-                "subtitle": "Interactive Reading",
-                "content": "Don't be afraid to stop at the most interesting moments. Take pauses to share thoughts or ask each other questions.",
-                "ideas": [
-                    "\"What do you think he'll do next? What would you do in his place?\"",
-                    "\"Do you feel sympathy for this character? Why?\"",
-                    "\"This situation reminds me of something from our life...\""
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: After the Epilogue",
-                "subtitle": "Reflection Time",
-                "content": "When the story is finished, don't rush back to reality. Discuss the ending: what does it mean to you? What emotions did the story leave? What details did one notice that the other missed?",
-                "ideas": [
-                    "Come up with and write down one sentence as a continuation—\"And a year later, the characters...\" Save this note as an artifact of your literary evening"
-                ]
-            }
-        ]
-    },
-    "artdialogue": {
-        "title": "Art Dialogue - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Art Dialogue",
-        "heroSubtitle": "Sometimes feelings are easier to express not with words, but with color and form. This date turns you into a duo of artists creating a shared canvas",
-        "sectionTitle": "The Process: \"Conversation on Canvas\"",
-        "checklist": [
-            {
-                "title": "Canvas",
-                "items": ["One large sheet of drawing paper or canvas on a stretcher", "two sets of paints (gouache or acrylic)", "brushes", "palette", "water cups"]
-            },
-            {
-                "title": "Studio",
-                "items": ["Cover the floor or table with plastic", "ensure good lighting"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Put on a creative playlist (from light jazz to indie rock)", "light an aromatic candle"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "🎨",
-                "title": "Free Artists",
-                "description": "Old white t-shirts that will become part of the art object"
-            },
-            {
-                "emoji": "🖌️",
-                "title": "Masters of Bohemia",
-                "description": "Berets, scarves, and creative chaos in clothing"
-            },
-            {
-                "emoji": "👕",
-                "title": "Art Therapists",
-                "description": "Maximally comfortable tracksuits"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Monologue in Color: First Touch",
-                "subtitle": "Individual Expression",
-                "content": "Divide the canvas in half (mentally or with a light pencil line). For 10-15 minutes, each person silently paints on their half, expressing their current mood or emotion. Don't think about the subject, trust your intuition.",
-                "ideas": [
-                    "Try to paint music: smooth lines for slow melodies, sharp strokes for fast ones",
-                    "Depict your day in color: yellow spots of joy, gray streaks of tiredness"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Response Gesture: Continuing the Story",
-                "subtitle": "Artistic Dialogue",
-                "content": "Now the most interesting part: switch places. Your task isn't to redo, but to complement your partner's drawing. Respond to their colors with yours, connect their lines with yours, turn their abstract spot into something new.",
-                "ideas": [
-                    "If your partner drew a circle, turn it into a sun, planet, or eye",
-                    "Draw your lines across the border, symbolically uniting the two halves"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Duet: Final Touches",
-                "subtitle": "Creating Unity",
-                "content": "Return to your places or work on the painting together, no longer dividing it into halves. Add finishing accents that will make the canvas a unified whole.",
-                "ideas": [
-                    "Find a place in the center of the painting for a shared symbol, meaningful only to you",
-                    "Leave handprints on the canvas, intertwined together"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Gallery Opening for Two",
-                "subtitle": "The Reveal",
-                "content": "Put the finished painting in a visible place. Hold a playful presentation: take turns telling what you wanted to depict and what you saw in your partner's work.",
-                "ideas": [
-                    "Come up with a title for your painting and take a photo with it, as if at a gallery opening. This canvas will become not just decor, but a true relic of your union"
-                ]
-            }
-        ]
-    },
-    "mapofhorizons": {
-        "title": "Map of Horizons - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Map of Horizons",
-        "heroSubtitle": "Dreaming alone is pleasant, but dreaming together means charting a course to a shared future. This date turns abstract wishes into a visible treasure map",
-        "sectionTitle": "The Process: \"Charting the Course\"",
-        "checklist": [
-            {
-                "title": "Tools",
-                "items": ["Large sheet of drawing paper or cork board", "colored markers", "pens", "sticky notes"]
-            },
-            {
-                "title": "Props",
-                "items": ["Old magazines for cutouts", "scissors", "glue", "pushpins"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Spacious spot on the floor or at a large table", "soft lighting", "inspiring playlist (soundtracks from motivational films, epic music)"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "📐",
-                "title": "Architects of the Future",
-                "description": "Comfortable but neat home clothes (shirts, polos)"
-            },
-            {
-                "emoji": "💭",
-                "title": "Great Dreamers",
-                "description": "Cozy pajamas or onesies"
-            },
-            {
-                "emoji": "✈️",
-                "title": "Time Travelers",
-                "description": "Clothes that remind you of your favorite trips"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Near Horizon: \"One Year\" Section",
-                "subtitle": "Immediate Dreams",
-                "content": "In the center of the map, draw a circle or column labeled \"Our Next Year.\" Fill it with concrete, achievable plans for the next 12 months. These can be both small joys and important steps.",
-                "ideas": [
-                    "Use different colored sticky notes for categories: \"Travel,\" \"Skills,\" \"Purchases,\" \"Experiences\"",
-                    "Examples: \"Weekend trip to a nearby city,\" \"Learn to cook paella together,\" \"Take a massage course,\" \"Once a month, have a surprise date\""
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Middle Distance: \"Five Years\" Section",
-                "subtitle": "Medium-Term Goals",
-                "content": "Around the central zone, create a \"Our Five-Year Plan\" section. Here you can place larger, more ambitious goals requiring time and preparation.",
-                "ideas": [
-                    "Use magazine cutouts for visualization: dream house, dog breed, country for a big trip",
-                    "Examples: \"Get a corgi named Bagel,\" \"Save for a down payment,\" \"Learn Italian for a trip to Tuscany,\" \"Run a half-marathon\""
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Distant Stars: \"Ten Years and Beyond\" Section",
-                "subtitle": "Big Dreams",
-                "content": "On the edges of the map, place your boldest, most boundless fantasies. In this section, there's no such word as \"impossible.\" Allow yourself to dream big.",
-                "ideas": [
-                    "Don't limit yourself to reality. Write down everything that comes to mind",
-                    "Examples: \"Open a little café by the sea,\" \"Write a book together,\" \"Live abroad for a year,\" \"Collect a vinyl record collection\""
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Compass Check",
-                "subtitle": "Reflection and Action",
-                "content": "When the map is ready, hang it in a visible place. Look at it from a distance and discuss: which dreams overlapped? What was a revelation about your partner's desires?",
-                "ideas": [
-                    "Choose one small dream from the \"One Year\" section and agree to take the first step toward making it happen next week. Photograph your map—let it become your phone wallpaper"
-                ]
-            }
-        ]
-    },
-    "storyinframes": {
-        "title": "Story in Frames - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Story in Frames",
-        "heroSubtitle": "In our phone galleries are gigabytes of memories we rarely revisit. This date is a chance to rescue the best moments from digital oblivion",
-        "sectionTitle": "The Process: \"Flipping Through Memory\"",
-        "checklist": [
-            {
-                "title": "Materials",
-                "items": ["Empty photo album with cardboard pages", "glue stick", "scissors", "double-sided tape"]
-            },
-            {
-                "title": "Decorations",
-                "items": ["Colored pens", "decorative stickers", "washi tape", "scraps of beautiful paper"]
-            },
-            {
-                "title": "Content",
-                "items": ["Pre-selected (or printed) 30-50 photos together"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Spacious, well-lit spot", "nostalgic playlist with songs that were popular at the start of your relationship"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "📷",
-                "title": "Memory Keepers",
-                "description": "Cozy vintage-style sweaters"
-            },
-            {
-                "emoji": "📼",
-                "title": "Archivists",
-                "description": "Comfortable home clothes you can sit on the floor in for hours"
-            },
-            {
-                "emoji": "🖼️",
-                "title": "Photo Chronicle Heroes",
-                "description": "Matching t-shirts or clothes in the same color scheme"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Casting: Finding the Best Shots",
-                "subtitle": "Photo Selection",
-                "content": "If you haven't done this beforehand, start with the most engaging part—selecting photos together. Rule: each person chooses 20-25 shots. Be sure to include not only beautiful ones, but funny, silly, and candid shots too.",
-                "ideas": [
-                    "Create award categories: \"Silliest Selfie,\" \"Photo Better Never Shown to Anyone,\" \"Shot Full of Love\"",
-                    "Find your very first photo together"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Direction: Storyboarding",
-                "subtitle": "Creating the Narrative",
-                "content": "Lay all selected photos on the floor and decide in what order they'll appear in the album. Will it be strict chronology or thematic spreads?",
-                "ideas": [
-                    "Thematic spreads: \"Our Travels,\" \"Conquering Culinary Heights,\" \"Home Silliness,\" \"Celebrations\"",
-                    "You could start with recent photos and move backward to the beginning of your relationship, like in the movie \"Memento\""
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Chronicle: Pages Come to Life",
-                "subtitle": "Assembly Time",
-                "content": "The most creative stage: glue in photos and add captions. Don't limit yourself to dates and locations. Write jokes, quotes born that day, or little stories.",
-                "ideas": [
-                    "Come up with funny captions from the perspective of people in the photos",
-                    "Draw little doodles around photos: hearts, arrows, suns",
-                    "Paste not only photos but tickets, receipts, or pressed flowers connected to that day"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Premiere Showing",
-                "subtitle": "The Big Reveal",
-                "content": "When the last page is filled, hold a ceremonial presentation. Slowly flip through the album from beginning to end, sharing memories that didn't fit in the captions.",
-                "ideas": [
-                    "On the last page, leave space for a new photo you'll take right now, holding the finished album. This will be a beautiful full stop and simultaneously the beginning of a new chapter"
-                ]
-            }
-        ]
-    },
-    "ourrhymes": {
-        "title": "Our Rhymes - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Our Rhymes",
-        "heroSubtitle": "You don't need to be a poet to talk about feelings in verse. This date is a playful game with words, rhythm, and memories",
-        "sectionTitle": "The Process: \"When Words Find Rhythm\"",
-        "checklist": [
-            {
-                "title": "Tools",
-                "items": ["Paper and pens", "notebooks", "or even one large board with markers"]
-            },
-            {
-                "title": "Inspiration",
-                "items": ["You can grab a poetry collection (like the amusing 'gariki' by Igor Guberman or lyrics by Vera Polozkova)"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Soft candlelight", "quiet background music (instrumental jazz or lounge)"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "🎩",
-                "title": "Bohemia",
-                "description": "Turtlenecks, berets, and artsy scarves"
-            },
-            {
-                "emoji": "📝",
-                "title": "Couch Poets",
-                "description": "Cozy sweaters and warm socks"
-            },
-            {
-                "emoji": "✍️",
-                "title": "Rhyme Weavers",
-                "description": "Funny pajamas that set a lighthearted mood"
-            }
-        ],
-        "topics": {
-            "show": true,
-            "icon": "📋",
-            "title": "Poem Topic Ideas",
-            "items": [
-                "\"Ode to Our Cat (or Other Pet)\"",
-                "\"Ballad About How We Chose Wallpaper\"",
-                "\"Epic of the First Date\"",
-                "\"Haiku About Morning Coffee\"",
-                "\"Epic Saga of the Trip to IKEA\""
-            ]
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "First Line: Setting the Theme",
-                "subtitle": "Choosing Your Subject",
-                "content": "Start by choosing a topic. It can be something grand and romantic or, conversely, maximally mundane and funny. The simpler the topic, the funnier the result.",
-                "ideas": [
-                    "Write several topics on slips of paper and draw one randomly",
-                    "Choose the brightest shared memory from the last month"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Poetic Relay: Stanza by Stanza",
-                "subtitle": "Building Together",
-                "content": "There are several game options. You can write one line at a time, trying to continue your partner's thought and rhyme. Or each person can write a quatrain on the given topic, then combine them.",
-                "ideas": [
-                    "Try the Japanese \"renga\" format, where each person writes three or two lines, continuing the previous ones",
-                    "Make it harder: agree that the poem must include the words \"pineapple,\" \"cosmodrome,\" and \"sock\""
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Bouts-Rimés: Rhyme Game",
-                "subtitle": "Surprise Poetry",
-                "content": "Another fun variation. One of you writes two rhyming lines on paper, folds the sheet so only the second line is visible, and passes it to your partner. They come up with a rhyme for the visible line, fold the sheet again, and pass it back. At the end, you unfold it and read the resulting absurd masterpiece.",
-                "ideas": [
-                    "Try this multiple times to create a collection of funny verses"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Author's Reading",
-                "subtitle": "Performance Time",
-                "content": "When the poems are ready, hold a \"poetry evening.\" With expression and drama, read to each other what you've created. Applause is mandatory!",
-                "ideas": [
-                    "Choose the best or funniest poem, beautifully rewrite it on a postcard, and hang it on the fridge as a manifesto of your creative union"
-                ]
-            }
-        ]
-    },
-    "freezeframe": {
-        "title": "Freeze Frame - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Freeze Frame",
-        "heroSubtitle": "Professional photo shoots are beautiful, but the most alive and genuine shots are born from goofing around when nobody's posing",
-        "sectionTitle": "The Process: \"Our Home Photo Chronicle\"",
-        "checklist": [
-            {
-                "title": "Equipment",
-                "items": ["Camera or phone with timer", "tripod (or substitute—stack of books, chair)"]
-            },
-            {
-                "title": "Props",
-                "items": ["Everything at hand—hats, glasses, scarves, blankets, string lights, sparklers, glasses, favorite mug"]
-            },
-            {
-                "title": "Locations",
-                "items": ["Choose 2-3 spots in the house with good light or interesting background (windowsill, couch with pillows, kitchen, hallway mirror)"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Energetic, fun playlist that makes you move and smile"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "👗",
-                "title": "Supermodels on the Couch",
-                "description": "Beautiful matching pajamas or robes"
-            },
-            {
-                "emoji": "🎭",
-                "title": "Comedy Heroes",
-                "description": "Bright, fun, or even ridiculous clothing"
-            },
-            {
-                "emoji": "⚫",
-                "title": "Total Black/White",
-                "description": "Dress in one color, always looks stylish in photos"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Studio Setup: Lights, Camera, Action!",
-                "subtitle": "Preparing the Space",
-                "content": "Organize shooting zones. Set your phone on timer (burst mode for 10-20 shots is your best friend), adjust lighting, arrange props within reach.",
-                "ideas": [
-                    "Build a fort from pillows and blankets—it's a great backdrop and cozy hideaway",
-                    "Use string lights to create beautiful bokeh lights in the background"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Classic Genre: Posed Shots",
-                "subtitle": "Warming Up",
-                "content": "Start with simple, sweet poses to warm up. Hugs, kisses, doing something together (reading a book, drinking cocoa).",
-                "ideas": [
-                    "Try recreating a shot from a famous romantic film (\"Titanic\" on the couch, \"Ghost\" in the kitchen)",
-                    "Make a series of \"photo booth\" photos: four quick frames with different funny faces"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "\"Live\" Mode: Capture the Moment",
-                "subtitle": "The Real Magic",
-                "content": "This is the main stage. Set burst mode on timer and just live: dance, have pillow fights, make sandwiches together, laugh, tell each other jokes. The best shots happen when you forget about the camera.",
-                "ideas": [
-                    "Turn on a favorite upbeat song and dance wildly",
-                    "Try giving each other funny hairstyles"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: One-Evening Exhibition",
-                "subtitle": "Reviewing the Results",
-                "content": "After the shoot, get comfortable and look through everything you captured. Don't delete failed shots—they're often the funniest.",
-                "ideas": [
-                    "Choose 3 winners in categories: \"Most Romantic Shot,\" \"Funniest Fail,\" and \"Photo That Needs to Be Printed.\" Create a separate album on your phone named after this evening"
-                ]
-            }
-        ]
-    },
-    "academyfortwo": {
-        "title": "Academy for Two - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Academy for Two",
-        "heroSubtitle": "We often know what coffee our partner likes, but don't always realize what universe hides in their hobbies. This date is a chance to become professor and student for each other",
-        "sectionTitle": "The Process: \"Scientific Symposium of Love\"",
-        "checklist": [
-            {
-                "title": "Talking Points",
-                "items": ["Each person chooses beforehand a topic for their 15-minute 'lecture'"]
-            },
-            {
-                "title": "Visual Aids",
-                "items": ["Can use laptop for presentation", "whiteboard with markers", "or just a notebook with drawings"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Create an 'academic' setting—desk lamp, chair as 'podium'", "quiet background music (classical or neoclassical)"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "🎓",
-                "title": "Professoriate",
-                "description": "Blazer or cardigan over home clothes, glasses for gravitas"
-            },
-            {
-                "emoji": "📚",
-                "title": "Eternal Students",
-                "description": "Cozy university sweatshirts and hoodies"
-            },
-            {
-                "emoji": "🎧",
-                "title": "Auditors",
-                "description": "Comfortable pajamas, ready to absorb knowledge while lying down"
-            }
-        ],
-        "topics": {
-            "show": true,
-            "icon": "📋",
-            "title": "Lecture Topic Examples",
-            "items": [
-                "\"Why This Music Album Is the Greatest in History: Analysis with Examples\"",
-                "\"Fundamentals of Perfect Tea Brewing: From Temperature to Mood\"",
-                "\"Brief History of My Favorite Video Game: Why It's Art\"",
-                "\"Philosophy of Cats: What Our Pets Teach Us\"",
-                "\"How Offside Works in Soccer: Explanation for Non-Athletes\""
-            ]
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Lecture #1: The World of One of Us",
-                "subtitle": "First Presentation",
-                "content": "The first \"professor\" steps up to the \"podium\" and gives their lecture. The goal is to talk about your passion enthusiastically, interestingly, and simply. The listener can ask clarifying questions and take notes.",
-                "ideas": [
-                    "Use objects in the room as visual aids",
-                    "Include one funny, little-known fact about your topic in the lecture"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Coffee Break: Scientific Debates",
-                "subtitle": "Discussion Time",
-                "content": "After the first lecture, take a small break. Pour tea or coffee, have a cookie, and discuss what you heard. This is time for tricky questions, jokes, and exchanging first impressions.",
-                "ideas": [
-                    "Try to argue with one of the lecturer's points, even if you agree",
-                    "Think of how the knowledge gained could be applied in your life together"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Lecture #2: New Universe",
-                "subtitle": "Second Presentation",
-                "content": "Now the \"professors\" switch places. The second partner presents their topic, trying to captivate the listener just as their predecessor did.",
-                "ideas": [
-                    "Try to find an unexpected connection between your topic and theirs",
-                    "End the lecture with a practical assignment you can do together (for example, \"now let's try listening to this song in a new way\")"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Diploma Ceremony",
-                "subtitle": "Celebration of Learning",
-                "content": "At the end of the evening, discuss what new things you learned about each other. What surprised you most? Which of your partner's passions did you want to share?",
-                "ideas": [
-                    "Draw playful diplomas for each other \"For Best Lecture About...\" or \"Honorary Expert in...\" Hang them in a visible place as a symbol of successfully completing your \"Academy\""
-                ]
-            }
-        ]
-    },
-    "flavorsoflove": {
-        "title": "Flavors of Love - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Flavors of Love",
-        "heroSubtitle": "The kitchen isn't just a place for cooking—it's a real stage for creativity, improvisation, and care. This date is a culinary duel where there are no losers",
-        "sectionTitle": "The Process: \"Culinary Duel\"",
-        "checklist": [
-            {
-                "title": "Menu",
-                "items": ["Secretly or openly find out each other's favorite dish (one you can actually cook)"]
-            },
-            {
-                "title": "Shopping",
-                "items": ["Go grocery shopping together, turning it into part of the adventure. You can split the list and race to find ingredients"]
-            },
-            {
-                "title": "Props",
-                "items": ["Beautiful aprons", "chef's hats for laughs", "all necessary kitchen utensils"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Energetic playlist (from Italian pop to rock 'n' roll)", "good lighting", "and a glass of wine for the chefs"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "👨‍🍳",
-                "title": "Head Chefs",
-                "description": "White t-shirts and stylish aprons"
-            },
-            {
-                "emoji": "🍷",
-                "title": "Restaurant Critics",
-                "description": "Elegant but comfortable home attire"
-            },
-            {
-                "emoji": "🧑‍🍳",
-                "title": "Kitchen Experimenters",
-                "description": "Whatever you don't mind getting flour on"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "On Your Marks, Get Set, Cook!",
-                "subtitle": "The Competition Begins",
-                "content": "Start cooking simultaneously in different parts of the kitchen. The task is to prepare your partner's favorite dish, pouring all your love and a bit of creativity into it.",
-                "ideas": [
-                    "Have a \"knife battle\"—who can chop vegetables faster and more beautifully",
-                    "You can cook with backs to each other to keep the intrigue until the very end"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Kitchen Show: Creative Chaos",
-                "subtitle": "The Performance",
-                "content": "Turn the process into a cooking show. Comment on each other's actions, conduct playful interviews (\"Chef, what's the secret of your sauce?\"), hold blind taste tests of ingredients.",
-                "ideas": [
-                    "Come up with an exquisite restaurant name for your dish",
-                    "Try repeating some trick from famous chefs (carefully though!)"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Judgment Day: Ceremonial Tasting",
-                "subtitle": "The Big Reveal",
-                "content": "When the dishes are ready, beautifully set the table. First present your creations, then taste. Evaluate not only flavor but presentation, originality, and amount of love invested.",
-                "ideas": [
-                    "Award each other playful Michelin stars or prizes in categories: \"Most Soulful Dish,\" \"For Will to Win,\" \"Best Aroma\"",
-                    "Try to guess the \"secret ingredient\" your partner added"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Final Touch: Recipe for Our Evening",
-                "subtitle": "Closing Time",
-                "content": "After dinner full of compliments and laughter, relax and discuss your culinary experience. Cleaning can also be part of the date—turn on music and dance with the mop.",
-                "ideas": [
-                    "Start a \"Book of Our Recipes\" and write these two dishes in it as the very first entries, definitely adding the date and a couple of funny moments from this evening"
-                ]
-            }
-        ]
-    },
-    "temporaryink": {
-        "title": "Temporary Ink - Date Plan",
-        "subtitle": "Date Plan",
-        "heroTitle": "Temporary Ink",
-        "heroSubtitle": "Today you'll create paintings that can't be hung on a wall—because they live on the body. An evening about attention, contact, and inspiration",
-        "sectionTitle": "The Process: \"Body as Art Form\"",
-        "checklist": [
-            {
-                "title": "Space",
-                "items": ["Create a cozy 'studio': cover the floor or bed with fabric", "place a bowl of warm water nearby", "soft towels", "napkins"]
-            },
-            {
-                "title": "Props",
-                "items": ["Body paints or face paint (can add gold or pearlescent accents)", "brushes of different sizes, sponges, cotton swabs", "timer or music playlist", "mirror to admire the results"]
-            },
-            {
-                "title": "Atmosphere",
-                "items": ["Warm lighting", "instrumental music with rhythm that helps concentration", "light chill or soundtracks (In the Mood for Love, Massive Attack, Alt-J)", "add scent: sandalwood, vanilla, or orange zest"]
-            }
-        ],
-        "dresscode": [
-            {
-                "emoji": "🎨",
-                "title": "Artist and Canvas",
-                "description": "White shirt, open shoulders or back"
-            },
-            {
-                "emoji": "👕",
-                "title": "Creative Studio",
-                "description": "Old t-shirts and shorts you don't mind getting dirty"
-            },
-            {
-                "emoji": "🧘",
-                "title": "Minimalism",
-                "description": "Just a blanket or towel, keeping skin exposed"
-            }
-        ],
-        "topics": {
-            "show": false
-        },
-        "steps": [
-            {
-                "number": 1,
-                "title": "Warm-Up: \"Guess the Drawing\"",
-                "subtitle": "Awakening Touch and Attention",
-                "content": "One person closes their eyes, the other draws simple shapes—a star, zigzag, spiral, arrow, letter. The task is to guess what's being drawn.",
-                "ideas": [
-                    "Try drawing everything on one body area—for example, on the back or stomach, to 'awaken' touch and attention"
-                ]
-            },
-            {
-                "number": 2,
-                "title": "Silent Canvas: \"I Draw What I Feel\"",
-                "subtitle": "Pure Creativity",
-                "content": "Now guessing stops, and pure creativity begins. One person is the canvas, the other is the artist. The artist draws what they feel in the moment: not a subject, but a mood. These can be lines, strokes, spots—anything that reflects inner rhythm. While one draws, the other listens to music, focusing on sensations.",
-                "ideas": [
-                    "Try drawing to music—let each track dictate its own color and movement",
-                    "Choose a body part—for example, arm, back, leg—and turn it into a 'mini-painting'"
-                ]
-            },
-            {
-                "number": 3,
-                "title": "Reflection: \"Your Mark on Me\"",
-                "subtitle": "Drawing Your Partner",
-                "content": "Now you switch roles. But this time the artist doesn't draw what they feel inside, but how they perceive their partner—their energy, mood, character. To stay focused, use these prompts:",
-                "ideas": [
-                    "\"I draw only with round shapes\"—about your partner's softness and tenderness",
-                    "\"Only in blue\"—about their favorite color",
-                    "\"As if my partner is an element\" (fire, water, air, earth)",
-                    "You can set a time limit—for example, 5 minutes per drawing, so you don't overthink and draw intuitively"
-                ]
-            },
-            {
-                "number": 4,
-                "title": "Photograph Your Artwork",
-                "subtitle": "Preserving the Moment",
-                "content": "When a drawing is on the body—it lives briefly. Photos help preserve this moment, mood, and see yourself through another's eyes. Have a small photoshoot of each other.",
-                "ideas": [
-                    "You can create interesting titles for your drawings, as if in a contemporary art gallery"
+                    "Make this moment special and memorable",
+                    "Remove the blindfold slowly to reveal the surprise"
                 ]
             },
             {
                 "number": 5,
-                "title": "Final Touch: \"Washing Away, Leaving Behind\"",
-                "subtitle": "Gentle Closure",
-                "content": "Carefully wash off the paint from each other with warm water, sponge, or cloth. Do this slowly, as a continuation of the ritual. Then wrap yourselves in towels or blankets, make tea.",
+                "title": "Role Reversal",
+                "subtitle": "Now It's Your Turn",
+                "content": "After the first round, switch roles. The second partner takes time to quickly rearrange the route details, add their own surprises, and prepare their version of the final destination.",
                 "ideas": [
-                    "Discuss what you felt during the process, which drawings resonated most, what surprised you about seeing yourself as art"
+                    "Discuss what you felt: was it harder to trust or to guide?",
+                    "Take a photo with the blindfold and caption it \"The Most Romantic Maze\""
                 ]
             }
         ]
