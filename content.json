@@ -969,5 +969,896 @@
                 ]
             }
         ]
-    }
+    },
+     "eveningquestionnaire": {
+    "title": "Evening Questionnaire - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Evening Questionnaire",
+    "heroSubtitle": "An exciting game of 'spies' where you test how well you know each other's habits and secrets. Not so much a chance to win as it is a chance to be surprised and learn something new",
+    "sectionTitle": "Process: \"Operation 'Sincere'\"",
+    "checklist": [
+      {
+        "title": "Dossier",
+        "items": [
+          "Each person secretly prepares a list of 10-15 questions about themselves in advance"
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          "Paper and pens for answers",
+          "erasable boards can be used"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Dim table lamp lighting",
+          "soundtracks from spy films or mysterious jazz playing in the background"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🕵️",
+        "title": "Private Detectives",
+        "description": "Dressing gowns worn like cloaks and a serious expression"
+      },
+      {
+        "emoji": "🖤",
+        "title": "Keepers of Secrets",
+        "description": "All black, like real secret agents"
+      },
+      {
+        "emoji": "👓",
+        "title": "Analysts",
+        "description": "Cosy jumpers and glasses (even if you have perfect vision)"
+      }
+    ],
+    "topics": {
+      "show": true,
+      "icon": "❓",
+      "title": "Sample Questions",
+      "items": [
+        "What is my favourite season and why?",
+        "What film could I watch over and over again?",
+        "What superpower would I choose?",
+        "What is the most ridiculous purchase I still laugh about?",
+        "Who was my first friend at school?"
+      ]
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Biased Questioning: Round One",
+        "subtitle": "The Investigation Begins",
+        "content": "One of you becomes the 'agent' and reads out your questions. The second ('subject') answers, trying to guess the correct answer. The agent maintains an air of mystery and remains impassive.",
+        "ideas": [
+          "Ask questions with different intonations to confuse the 'subject'",
+          "Allow the 'subject' to take one '50/50 hint' for the entire round"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Verification of Answers: A Reward for Attentiveness",
+        "subtitle": "The Reveal",
+        "content": "The 'agent' reveals the correct answers. For each match, the 'subject' receives a pre-agreed prize.",
+        "ideas": [
+          "Prizes can be simple and sweet: a kiss, a shoulder massage, your favourite candy, the right to choose tomorrow's film",
+          "You can keep score on a board to add excitement"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Role Reversal: The Return Move",
+        "subtitle": "Tables Turned",
+        "content": "Now the 'subject' becomes the 'agent' and conducts their own round of 'interrogation'. The task is to win back or strengthen the lead in the score.",
+        "ideas": [
+          "Try to catch your partner out with a question that they definitely should know but may have forgotten",
+          "Add one joke question that has no correct answer"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Chord: Summing Up",
+        "subtitle": "The Debrief",
+        "content": "After two rounds, discuss the results. Which answers surprised you? What new things did you learn? Which questions were the most difficult?",
+        "ideas": [
+          "Write down the funniest and most unexpected answers of the evening. This 'chronicle' will become your secret memory capsule"
+        ]
+      }
+    ]
+  },
+  "dancefloorfortwo": {
+    "title": "Dance Floor for Two - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Dance Floor for Two",
+    "heroSubtitle": "Music is the fastest way to change your mood, and dance is the most sincere way to talk without words. Turn your living room into a private dance club",
+    "sectionTitle": "Process: \"Rhythms of Our Evening\"",
+    "checklist": [
+      {
+        "title": "Playlist",
+        "items": [
+          "Gather tracks of different genres in advance—from slow ballads to fiery funk or rock 'n' roll"
+        ]
+      },
+      {
+        "title": "Dance Floor",
+        "items": [
+          "Clear some space in the room by moving the furniture aside"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Dim the lights",
+          "turn on fairy lights, a disco ball or just candles to set the mood"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "👟",
+        "title": "Freedom of Movement",
+        "description": "Comfortable sports trousers and T-shirts"
+      },
+      {
+        "emoji": "👗",
+        "title": "Ball at the Palace",
+        "description": "Dress up in your most beautiful clothes, even if they contrast with the surroundings"
+      },
+      {
+        "emoji": "🦄",
+        "title": "Pyjama Disco",
+        "description": "Funny pyjamas or kigurumi for maximum relaxation"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Warm-up: The First Dance",
+        "subtitle": "Finding Your Rhythm",
+        "content": "Start with something slow and calm. This will help you tune in to each other, feel the rhythm and connect. Don't think about the movements, just hug each other and sway to the music.",
+        "ideas": [
+          "Dance with your eyes closed to feel your partner better",
+          "Choose a song that you both have fond memories of"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Dance Improvisation: A Game of Associations",
+        "subtitle": "Creative Movement",
+        "content": "To avoid awkward pauses, turn dancing into a game. Give each other funny tasks to perform in movement to the music.",
+        "ideas": [
+          "Dance as if you were sneaking around",
+          "Dance as if you are looking for your other sock in the morning",
+          "Show us the dance of the winner who has just finished everything"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Battle: Who Will Outdance Whom?",
+        "subtitle": "Friendly Competition",
+        "content": "Put on the most energetic track and have a fun competition. The goal is not to win, but to make each other laugh and release energy.",
+        "ideas": [
+          "Take turns showing one move that your partner must repeat and add their own to it",
+          "Try to synchronously repeat the moves from a famous music video"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Chord: Our Special Dance",
+        "subtitle": "The Perfect Ending",
+        "content": "End the evening with a dance to the song that best describes your relationship. Let it become your unofficial 'couple's dance'.",
+        "ideas": [
+          "Ask Siri or Google Assistant to 'remember this moment' and record video of the last 30 seconds of your dance"
+        ]
+      }
+    ]
+  },
+  "fitnessfortwo": {
+    "title": "Fitness for Two - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Fitness for Two",
+    "heroSubtitle": "Training together is about support, synchronisation and team spirit. Turn sport into a fun game where you cheer each other on and recharge your batteries",
+    "sectionTitle": "Process: \"In the Same Rhythm\"",
+    "checklist": [
+      {
+        "title": "Equipment",
+        "items": [
+          "Yoga mats or just a soft carpet",
+          "water bottles",
+          "towels"
+        ]
+      },
+      {
+        "title": "Music",
+        "items": [
+          "Put together a playlist with the most energetic and motivating tracks"
+        ]
+      },
+      {
+        "title": "Space",
+        "items": [
+          "Make sure you have enough room to move around"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "👕",
+        "title": "Dream Team",
+        "description": "Sportswear in the same colour scheme or matching T-shirts"
+      },
+      {
+        "emoji": "🏅",
+        "title": "Olympic Reserve",
+        "description": "The brightest and most fun sports outfits possible"
+      },
+      {
+        "emoji": "🧘",
+        "title": "Zen Masters",
+        "description": "Comfortable leggings, shorts and tops for yoga or stretching"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Warm-up: Getting Ready to Start",
+        "subtitle": "Preparing Your Body",
+        "content": "Start with a light 5-minute warm-up to prepare your muscles. Simple swings, bends, joint rotations. Do this in sync, looking at each other.",
+        "ideas": [
+          "Turn your warm-up into a game of 'Follow Me'",
+          "Set a timer and change exercises every 30 seconds"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Main Set: Partner Work",
+        "subtitle": "Building Trust",
+        "content": "Move on to exercises that require interaction. This develops trust and a sense of partnership.",
+        "ideas": [
+          "Squats while holding hands: stand facing each other and squat simultaneously, creating a counterbalance",
+          "Push-ups with clapping: stand facing each other and clap your partner's palm after each push-up",
+          "Passing the ball: sit on the floor back to back and pass a ball or pillow to each other, twisting your torso"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Competitive Spirit: Fun Challenges",
+        "subtitle": "Adding Excitement",
+        "content": "Add an element of gambling. Organise several mini-competitions where the winner receives a symbolic prize.",
+        "ideas": [
+          "Plank 'who can make whom laugh': stand in a plank position facing each other. The task is to hold the position, while the other's task is to make them laugh by any means necessary (except tickling)",
+          "'Chair' against the wall: whoever stays in this position the longest gets to choose the film for the evening"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Chord: Cool Down and Relax",
+        "subtitle": "Recovery Time",
+        "content": "Finish your workout with some gentle stretching. This will help relax your muscles and smoothly transition from activity to rest.",
+        "ideas": [
+          "Give each other a light shoulder or calf massage. Afterwards, prepare healthy smoothies and celebrate your 'victory' over laziness"
+        ]
+      }
+    ]
+  },
+  "surprisebox": {
+    "title": "Surprise Box - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Surprise Box",
+    "heroSubtitle": "The most valuable gifts don't have a price tag. Become secret magicians for each other, preparing inexpensive but meaningful items for your 'treasure box'",
+    "sectionTitle": "Process: \"The Magic of Small Things\"",
+    "checklist": [
+      {
+        "title": "Surprises",
+        "items": [
+          "Each person secretly buys 3-4 small symbolic gifts for their partner in advance. The budget is minimal"
+        ]
+      },
+      {
+        "title": "Storage",
+        "items": [
+          "Find a beautiful box or casket that will become your 'memory capsule'"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Create a festive mood with candles, garlands and light, pleasant music"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🎉",
+        "title": "Birthday Boys and Girls",
+        "description": "Wear party hats or funny headbands"
+      },
+      {
+        "emoji": "🎁",
+        "title": "Treasure Keepers",
+        "description": "Cosy jumpers with pockets where you can hide surprises"
+      },
+      {
+        "emoji": "✨",
+        "title": "Wizards",
+        "description": "Add something shiny or iridescent to your clothes"
+      }
+    ],
+    "topics": {
+      "show": true,
+      "icon": "💝",
+      "title": "Examples of Surprises",
+      "items": [
+        "Your partner's favourite chocolate bar, which is hard to find",
+        "Funny socks with a print related to your shared joke",
+        "A small Lego or Kinder Surprise figure that references their hobby",
+        "Your favourite photo together, printed and framed",
+        "A key ring that solves the problem of 'always losing your keys'"
+      ]
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "The Moment of Surprise: Exchanging Gifts",
+        "subtitle": "The Unveiling",
+        "content": "Take turns picking out one gift at a time and giving it to your partner. Don't rush, enjoy the moment of unwrapping and the first reaction.",
+        "ideas": [
+          "Wrap each gift in several layers of paper to prolong the intrigue",
+          "Before handing over the gift, give three funny clues about what's inside"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Story Behind an Item: Why This Particular Item?",
+        "subtitle": "Sharing the Meaning",
+        "content": "After the gift is opened, the giver tells the story behind their choice. This is the most important part—not the item itself, but the thought behind it.",
+        "ideas": [
+          "'I chose this because I remember how you laughed when we saw it last time'",
+          "'This item reminds me of your superpower...'"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Final Chord: Creating a 'Memory Capsule'",
+        "subtitle": "Building Your Collection",
+        "content": "When all the surprises have been given and the stories told, solemnly place all the items in your shared box. It becomes your personal museum.",
+        "ideas": [
+          "Write the date of this evening on a small piece of paper and put it in the box with the gifts. Agree to add to it once a year or open it on special occasions"
+        ]
+      }
+    ]
+  },
+  "videogamenight": {
+    "title": "Video Game Night - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Video Game Night",
+    "heroSubtitle": "Video games are a portal to other worlds where you can go together. Become a well-coordinated team or fierce rivals in vivid emotions and laughter",
+    "sectionTitle": "Process: \"Mission Possible\"",
+    "checklist": [
+      {
+        "title": "Platform",
+        "items": [
+          "Game console, PC, or even mobile phones with mobile games"
+        ]
+      },
+      {
+        "title": "Provisions",
+        "items": [
+          "Snacks and drinks that can be eaten without taking your eyes off the screen (pizza, nachos, nuts)"
+        ]
+      },
+      {
+        "title": "Gaming Area",
+        "items": [
+          "Comfortable sofa or armchairs",
+          "cushions",
+          "dim lighting so as not to distract from the screen"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🎮",
+        "title": "Esports Players",
+        "description": "Comfortable hoodies, caps, and gaming headphones"
+      },
+      {
+        "emoji": "🦸",
+        "title": "Fantasy Heroes",
+        "description": "Cosy pyjamas or kigurumi costumes of your favourite characters"
+      },
+      {
+        "emoji": "🛋️",
+        "title": "Couch Troops",
+        "description": "The most relaxed home clothes possible"
+      }
+    ],
+    "topics": {
+      "show": true,
+      "icon": "🕹️",
+      "title": "Examples of Games for Two",
+      "items": [
+        "Cooperative (team play): It Takes Two, Overcooked, Portal 2, A Way Out",
+        "Competitive (friend vs. friend): racing (Mario Kart, Need for Speed), fighting (Mortal Kombat, Street Fighter)",
+        "Fun and simple: any games from the Jackbox Games series, mobile Heads Up! or Draw Something"
+      ]
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Choosing the Arena: Team or Duel?",
+        "subtitle": "Setting the Stage",
+        "content": "First, decide how you want to spend your evening. Will you work together to complete a challenging mission, or will you organise a tournament to find out who is today's 'couch champion'?",
+        "ideas": [
+          "You can combine the two: start with a cooperative game to warm up, and finish with a competitive contest",
+          "If you are playing a competitive game, agree on a 'prize for the winner'"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Start of the Tournament: The Game is On!",
+        "subtitle": "Let the Games Begin",
+        "content": "Immerse yourself in the game! Don't forget to communicate, coordinate your actions, cheer each other on or, conversely, tease your partner. Emotions are the main part of this date.",
+        "ideas": [
+          "If you are playing a competitive game, organise a 'best of three' tournament. The loser of round compliments the winner",
+          "Come up with funny names for your team (e.g., 'Couch Crushers')"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Final Chord: Hall of Fame",
+        "subtitle": "Celebrating Victory",
+        "content": "After the game is over, don't rush to turn off the console. Discuss the funniest and most tense moments. Who was the hero of the evening, and who was the most awkward player?",
+        "ideas": [
+          "Take a victory selfie with your joysticks in front of the final credits or scoreboard. Create a separate folder on your phone called 'Our Hall of Fame'"
+        ]
+      }
+    ]
+  },
+  "cleaninggame": {
+    "title": "Cleaning Game - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Cleaning Game",
+    "heroSubtitle": "Turn the most boring routine into a fun competition. You're 'chaos fighters' and the reward will be cleanliness and a great mood",
+    "sectionTitle": "Process: \"Operation Clean House\"",
+    "checklist": [
+      {
+        "title": "Arsenal",
+        "items": [
+          "Rags, sponges, detergents, mop, vacuum cleaner, rubbish bags"
+        ]
+      },
+      {
+        "title": "Timer",
+        "items": [
+          "Phone with a stopwatch or kitchen timer"
+        ]
+      },
+      {
+        "title": "Soundtrack",
+        "items": [
+          "Make a playlist in advance with the most upbeat and rhythmic music"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🪖",
+        "title": "Cleaning Special Forces",
+        "description": "Comfortable dark clothing, bandanas on your head"
+      },
+      {
+        "emoji": "👻",
+        "title": "Dust Hunters",
+        "description": "Old T-shirts and shorts that you don't mind getting dirty"
+      },
+      {
+        "emoji": "🧚",
+        "title": "Cleanliness Fairies",
+        "description": "Something light, bright and funny"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Division of Territories: Plan of Attack",
+        "subtitle": "Strategic Planning",
+        "content": "Examine the 'battlefield' and assign areas of responsibility. You can draw lots to decide who gets the kitchen and who gets the bedroom. Or you can work in the same area but perform different tasks.",
+        "ideas": [
+          "Organise a 'relay race': every 15 minutes, when the timer goes off, switch tasks or rooms",
+          "Divide responsibilities: one person is responsible for 'dry' cleaning (dusting, vacuuming), the other is responsible for 'wet' cleaning (washing floors and surfaces)"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Fighting Chaos: Fun Challenges",
+        "subtitle": "Game Time",
+        "content": "Add some game elements to the process. This will turn the routine into a competition and help you move faster.",
+        "ideas": [
+          "Speed cleaning: who can sort through the pile of things on the chair faster? The winner gets the title of 'Master of Order'",
+          "Treasure hunt: who can find the most long-lost items (coins, hair clips, lost socks) while tidying up?",
+          "Musical freeze frame: cleaning continues while the music plays. As soon as the track stops, everyone must freeze in a funny pose"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Final Chord: Reward for Your Efforts",
+        "subtitle": "Mission Accomplished",
+        "content": "When the last bag of rubbish has been taken out and the rags have been washed, hold a solemn 'work acceptance' ceremony. Walk around the flat, praising each other for the work you have done.",
+        "ideas": [
+          "Order pizza or sushi and have dinner right on the floor in a perfectly clean room. The winner of all challenges is officially exempt from washing the dishes"
+        ]
+      }
+    ]
+  },
+  "homespa": {
+    "title": "Home SPA - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Home SPA",
+    "heroSubtitle": "Turn your bathroom and bedroom into an oasis of calm and care. Become masters of relaxation for each other through simple rituals",
+    "sectionTitle": "Process: \"Oasis for Two\"",
+    "checklist": [
+      {
+        "title": "Arsenal",
+        "items": [
+          "Fabric face masks, scrubs, aromatic oils or massage cream, bath salts or foam"
+        ]
+      },
+      {
+        "title": "Accessories",
+        "items": [
+          "Soft towels and bathrobes",
+          "scented candles",
+          "sticks or a diffuser"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Dim lighting",
+          "a playlist with calm music (ambient, nature sounds, lounge)"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🧖",
+        "title": "Guardians of Relaxation",
+        "description": "Soft bathrobes and fluffy slippers"
+      },
+      {
+        "emoji": "☮️",
+        "title": "Zen Adepts",
+        "description": "Comfortable pyjamas made from natural fabrics"
+      },
+      {
+        "emoji": "💧",
+        "title": "Lords of the Elements",
+        "description": "Light shorts and T-shirts"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Cleansing Ritual: Facial Care",
+        "subtitle": "Beginning the Journey",
+        "content": "Start with simple and pleasant facial treatments. This will put you in the mood for relaxation.",
+        "ideas": [
+          "Help each other apply clay or fabric masks. Doing this together is great fun!",
+          "Make a steam bath for your face by adding a few drops of eucalyptus or lavender essential oil to hot water"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Art of Touch: Massage Time",
+        "subtitle": "Healing Hands",
+        "content": "Move to the bedroom. Take turns giving each other a light, relaxing massage. You don't need to be a professional; the main thing is to be gentle and attentive.",
+        "ideas": [
+          "Shoulder and neck massage: this is a universal way to relieve tension after a day's work",
+          "Foot massage: an incredibly relaxing procedure, especially when using a nourishing cream",
+          "Hand massage: we often forget about our hands, but they get tired too"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Full Immersion: A Bath for Two",
+        "subtitle": "Complete Relaxation",
+        "content": "Fill the bath with warm water, add sea salt, foam or a bath bomb. Light candles around the room and immerse yourself in an atmosphere of complete tranquillity.",
+        "ideas": [
+          "Bring along some cool drinks and fruit, such as grapes or strawberries",
+          "Play an audiobook or simply lie in silence"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Chord: A State of Weightlessness",
+        "subtitle": "Perfect Peace",
+        "content": "After all the procedures, take your time to wrap yourself in warm robes or immediately get under the blanket. Allow yourself to just lie there without discussing anything.",
+        "ideas": [
+          "End the evening with a cup of herbal tea with honey. Try lying in silence for 10 minutes, just holding hands and feeling each other's presence"
+        ]
+      }
+    ]
+  },
+  "ourlittlegarden": {
+    "title": "Our Little Garden - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Our Little Garden",
+    "heroSubtitle": "Creating something alive together is a little bit of magic. 'Adopt' a houseplant that will become a silent witness and symbol of your relationship",
+    "sectionTitle": "Process: \"Birth of a Symbol\"",
+    "checklist": [
+      {
+        "title": "Main Character",
+        "items": [
+          "Choose an undemanding plant together at the shop (zamioculcas, sansevieria or chlorophytum)"
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          "A nice pot or planter",
+          "soil",
+          "drainage (expanded clay)",
+          "gloves",
+          "a scoop"
+        ]
+      },
+      {
+        "title": "Workspace",
+        "items": [
+          "Cover the floor with newspapers or plastic sheeting so you don't have to worry about making a mess"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Light and bright music (indie folk, acoustic covers)",
+          "daylight"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "🌱",
+        "title": "Gardeners",
+        "description": "Old jeans and plaid shirts"
+      },
+      {
+        "emoji": "🌿",
+        "title": "Nature Guardians",
+        "description": "Green or earth-toned clothing"
+      },
+      {
+        "emoji": "🧑‍🌾",
+        "title": "Experimental Florists",
+        "description": "Comfortable overalls or aprons"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Transplanting: Giving a New Resident a Home",
+        "subtitle": "Planting Together",
+        "content": "Prepare the pot together: pour drainage material into the bottom, then add a layer of soil. Carefully remove the plant from the transport pot and place it in the new one, covering it with soil.",
+        "ideas": [
+          "Turn it into a ritual: one person holds the plant, the other carefully works with a trowel",
+          "You can place a 'time capsule' at the bottom of the pot before adding soil—a coin or a note with the date and your wishes"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Art Workshop: Decorating the Pot",
+        "subtitle": "Making It Personal",
+        "content": "If you have chosen a simple ceramic or plastic pot, turn it into an art object.",
+        "ideas": [
+          "Paint the pot with acrylic paints: draw patterns, funny faces or your initials",
+          "Write the name you have chosen for the plant on it",
+          "Decorate it with decorative elements or simply tie a pretty ribbon around it"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Making a Schedule: A Care Plan",
+        "subtitle": "Shared Responsibility",
+        "content": "Your 'pet' needs care. Discuss and decide who will water, spray and feed it, and when.",
+        "ideas": [
+          "Come up with a name and personality for the plant. For example, 'Igor the Cactus, a little prickly, but kind at heart'",
+          "Hang a funny 'watering schedule' on the refrigerator so you don't forget"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Touch: A Place of Honour",
+        "subtitle": "Finding the Perfect Spot",
+        "content": "Find the best place in your home for your new green friend. Put it where it will be pleasing to the eye and remind you of that warm evening.",
+        "ideas": [
+          "Take a 'family portrait'—the two of you and your new plant. Agree to take a photo with it every six months to see how you are all growing together"
+        ]
+      }
+    ]
+  },
+  "rolereversal": {
+    "title": "Role Reversal - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Role Reversal",
+    "heroSubtitle": "Ever wondered what it would be like to spend an evening in your partner's shoes? A fun theatrical experiment where you swap clothes and habits",
+    "sectionTitle": "Process: \"One Evening in Your Shoes\"",
+    "checklist": [
+      {
+        "title": "Wardrobe",
+        "items": [
+          "Each person prepares a complete set of their clothes for their partner in advance (from socks to a shirt or dress)"
+        ]
+      },
+      {
+        "title": "Setting",
+        "items": [
+          "You will need a large mirror and a phone for photos and videos"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "Put on a fun and dynamic playlist that puts you in the mood for silliness"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "👔",
+        "title": "Partner's Choice",
+        "description": "On this date, your partner decides the dress code! Be prepared for anything"
+      }
+    ],
+    "topics": {
+      "show": false
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Transformation: A Reverse Fashion Show",
+        "subtitle": "The Big Switch",
+        "content": "The funniest moment is getting dressed. Help each other cope with unfamiliar clothes. When the looks are ready, organise a funny fashion show to music, walk around the room with your partner's 'signature' gait.",
+        "ideas": [
+          "Take a series of 'before' and 'after' photos",
+          "Shoot a short video of yourselves posing in your new outfits"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Immerse Yourself in the Look: An Evening in a New Role",
+        "subtitle": "Living the Experience",
+        "content": "Spend at least an hour wearing each other's clothes. Try doing your usual activities: making tea, scrolling through your phone, watching TV, but in your new look.",
+        "ideas": [
+          "Try sitting on the sofa or in an armchair in your partner's favourite position",
+          "Talk on the phone with an imaginary interlocutor, using their typical phrases and intonations"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "One-Person Theatre: Parodying Habits",
+        "subtitle": "Friendly Imitation",
+        "content": "This is the highlight of the evening. Take turns showing each other friendly parodies of characteristic gestures, facial expressions or phrases. The main thing is to do it in a friendly manner.",
+        "ideas": [
+          "'What you look like when you're concentrating on your work'",
+          "'Your face when you see a cute cat'",
+          "'Your favourite phrase when you don't want to wash the dishes'"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Final Chord: Returning to Yourself",
+        "subtitle": "Reflection Time",
+        "content": "After the game, change back into your own clothes and discuss your impressions. It wasn't just a masquerade, but an interesting experience.",
+        "ideas": [
+          "Share one discovery you made about your partner or yourself. For example: 'I never thought your jeans would be so comfortable!'"
+        ]
+      }
+    ]
+  },
+  "boardgamenight": {
+    "title": "Board Game Night - Date Plan",
+    "subtitle": "Date Plan",
+    "heroTitle": "Board Game Night",
+    "heroSubtitle": "Board games are a ready-made universe in a box, full of excitement, strategy and unexpected twists. Your personal gaming marathon",
+    "sectionTitle": "The Process: \"Let the Game Begin!\"",
+    "checklist": [
+      {
+        "title": "Game Library",
+        "items": [
+          "Choose 2-3 different types of board games in advance"
+        ]
+      },
+      {
+        "title": "Snacks",
+        "items": [
+          "Prepare a 'game table' with drinks and food that is easy to eat with your hands (nuts, crisps, sliced fruit, mini pizzas)"
+        ]
+      },
+      {
+        "title": "Atmosphere",
+        "items": [
+          "A comfortable place at the table or on the floor",
+          "dim warm lighting",
+          "background music that does not interfere with thinking"
+        ]
+      }
+    ],
+    "dresscode": [
+      {
+        "emoji": "♟️",
+        "title": "Grandmasters",
+        "description": "Cosy robes or kigurumi"
+      },
+      {
+        "emoji": "🎲",
+        "title": "Lords of the Dice",
+        "description": "Comfortable tracksuits or pyjamas"
+      },
+      {
+        "emoji": "🎩",
+        "title": "Bluff Masters",
+        "description": "Loungewear, but with one 'serious' element, such as a hat or bow tie"
+      }
+    ],
+    "topics": {
+      "show": true,
+      "icon": "🃏",
+      "title": "Examples of Games for Two",
+      "items": [
+        "Strategy games: Carcassonne, 7 Wonders: Duel, Patchwork, Hive",
+        "Fun and fast: Uno, Dobble, Equivoke for Two, Code Names: Duet",
+        "Classics: chess, checkers, backgammon"
+      ]
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Choosing Your Weapons: Deciding on the Evening's Arsenal",
+        "subtitle": "Game Selection",
+        "content": "Lay out all the prepared games and decide which one to start with. It is better to move from simpler and faster games to more complex and longer ones, or vice versa—start with the main 'dish' while you still have the energy.",
+        "ideas": [
+          "Hold a draw to choose the first game",
+          "Agree that the loser of one game chooses the next"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "The Start of the Tournament: A Battle of Wits and Luck",
+        "subtitle": "Let the Games Begin",
+        "content": "Immerse yourself in the game! Explain the rules if anyone has forgotten them and start the game. Don't forget to joke around, comment on moves and create friendly competition.",
+        "ideas": [
+          "Organise a tournament with up to three wins. The winner receives a humorous title, such as 'King of Carcassonne'",
+          "Introduce a rule: before each turn, players must compliment their partner"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Final Chord: Honouring the Winners",
+        "subtitle": "Celebration Time",
+        "content": "After the last game, sum up the results. It doesn't matter who won on points—on an evening like this, both sides are winners.",
+        "ideas": [
+          "Create a 'challenge cup'—it can be any funny thing in your house (a statuette, a mug, a soft toy). The winner keeps it until the next board game night"
+        ]
+      }
+    ]
+  }
 }
