@@ -1095,7 +1095,7 @@
         // Load content from JSON
         async function loadContent() {
             try {
-                const response = await fetch('content.json');
+                const response = await fetch('content_final.json');
                 
                 // If fetch fails or returns HTML (404 page), use sample content
                 if (!response.ok || response.headers.get('content-type')?.includes('text/html')) {
