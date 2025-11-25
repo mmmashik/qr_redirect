@@ -1,4 +1,5 @@
 {
+    "{
     "rainyday": {
         "title": "A Message for a Rainy Day - Date Plan",
         "subtitle": "Date Plan",
@@ -32,24 +33,24 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ§¸",
+                "emoji": "🧸",
                 "title": "Keepers of the Cozy",
                 "description": "Fluffy robes, warm blankets, and woolly socks"
             },
             {
-                "emoji": "â˜”",
+                "emoji": "☔",
                 "title": "Rainy Day Poets",
                 "description": "Oversized sweaters, reading glasses, and a thoughtful mood"
             },
             {
-                "emoji": "ðŸŒ™",
+                "emoji": "🌙",
                 "title": "Pajama Classic",
                 "description": "Your most loved, most comfortable pajamas"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "ðŸ“‹",
+            "icon": "📋",
             "title": "What to Write About",
             "items": [
                 "Recall a moment when you felt truly proud of your partner",
@@ -90,7 +91,7 @@
             {
                 "number": 4,
                 "title": "The Final Act",
-                "content": "Pick a special place for your lettersâ€”a beautiful decorative box, an old wine crate, or a secret shelf in the bookcaseâ€”where they will wait for their moment.",
+                "content": "Pick a special place for your letters—a beautiful decorative box, an old wine crate, or a secret shelf in the bookcase—where they will wait for their moment.",
                 "ideas": [
                     "Take a photo as you place the letters into their \"vault.\" That picture will be the very first exhibit in your future \"Gallery of Warm Memories\""
                 ]
@@ -101,7 +102,7 @@
         "title": "Cinema Revelation - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Cinema Revelation",
-        "heroSubtitle": "This evening isn't just about moviesâ€”it's a chance to know each other more deeply through the stories that shaped you",
+        "heroSubtitle": "This evening isn't just about movies—it's a chance to know each other more deeply through the stories that shaped you",
         "sectionTitle": "The Process: \"Private Screening for Two\"",
         "checklist": [
             {
@@ -129,24 +130,24 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸŽ¬",
+                "emoji": "🎬",
                 "title": "Red Carpet on the Couch",
                 "description": "Silk pajamas or cozy robes"
             },
             {
-                "emoji": "ðŸŽ­",
+                "emoji": "🎭",
                 "title": "Couch Critics",
                 "description": "Comfortable sweaters, glasses, and blankets"
             },
             {
-                "emoji": "ðŸ¿",
+                "emoji": "🍿",
                 "title": "Blockbuster Heroes",
                 "description": "Fun onesies or pajamas with favorite characters"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "ðŸ’­",
+            "icon": "💭",
             "title": "Discussion Topics",
             "items": [
                 "Why is this film so important to you?",
@@ -227,47 +228,47 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ“š",
+                "emoji": "📚",
                 "title": "Librarians",
                 "description": "Cozy cardigans, warm socks, and perhaps glasses for gravitas"
             },
             {
-                "emoji": "ðŸ“–",
+                "emoji": "📖",
                 "title": "Storytellers",
                 "description": "Soft pajamas or onesies that make it easy to imagine yourself as a character"
             },
             {
-                "emoji": "â˜•",
+                "emoji": "☕",
                 "title": "Book Club",
                 "description": "Comfortable sweatshirts and blankets you can wrap yourself in completely"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "ðŸ“š",
+            "icon": "📚",
             "title": "Story Suggestions",
             "items": [
-                "Ray Bradbury â€” \"The Vacation\" or \"The Smile\" (short, warm, with a touch of melancholy)",
-                "O. Henry â€” \"The Gift of the Magi\" (a classic that always touches the heart deeply)",
-                "Alexander Green â€” \"The Green Lamp\" (a bit fairy-tale-like with faith in dreams)",
-                "Ursula K. Le Guin â€” \"The Ones Who Walk Away from Omelas\" (short, philosophical, sparks long discussions)",
-                "Haruki Murakami â€” \"On Seeing the 100% Perfect Girl One Beautiful April Morning\" (tender and slightly absurd)"
+                "Ray Bradbury — \"The Vacation\" or \"The Smile\" (short, warm, with a touch of melancholy)",
+                "O. Henry — \"The Gift of the Magi\" (a classic that always touches the heart deeply)",
+                "Alexander Green — \"The Green Lamp\" (a bit fairy-tale-like with faith in dreams)",
+                "Ursula K. Le Guin — \"The Ones Who Walk Away from Omelas\" (short, philosophical, sparks long discussions)",
+                "Haruki Murakami — \"On Seeing the 100% Perfect Girl One Beautiful April Morning\" (tender and slightly absurd)"
             ]
         },
         "steps": [
             {
                 "number": 1,
                 "title": "Role Distribution: Narrator and Voice",
-                "content": "Decide how you'll read. You can take turnsâ€”by paragraphs or pages. Or you can create real theater: one reads the author's words, and the other voices the characters.",
+                "content": "Decide how you'll read. You can take turns—by paragraphs or pages. Or you can create real theater: one reads the author's words, and the other voices the characters.",
                 "ideas": [
-                    "Try changing your voice to portray different characters. Don't be afraid to overactâ€”it's fun!",
+                    "Try changing your voice to portray different characters. Don't be afraid to overact—it's fun!",
                     "If there are sounds in the story (a door knock, wind howling), act them out"
                 ]
             },
             {
                 "number": 2,
                 "title": "Diving into the Plot: The Magic of Intonation",
-                "content": "Start reading aloud, without rushing. Enjoy the timbre of your partner's voice, pour emotion into the words, play with intonationâ€”from whispers to exclamations. Your goal isn't speed, but atmosphere.",
+                "content": "Start reading aloud, without rushing. Enjoy the timbre of your partner's voice, pour emotion into the words, play with intonation—from whispers to exclamations. Your goal isn't speed, but atmosphere.",
                 "ideas": [
                     "Use your phone's flashlight to illuminate the text, creating a mysterious setting",
                     "Play ambient or instrumental music in the background that fits the story's mood"
@@ -288,7 +289,7 @@
                 "title": "Final Touch: After the Epilogue",
                 "content": "When the story is finished, don't rush back to reality. Discuss the ending: what does it mean to you? What emotions did the story leave? What details did one notice that the other missed?",
                 "ideas": [
-                    "Come up with and write down one sentence as a continuationâ€”\"And a year later, the characters...\" Save this note as an artifact of your literary evening"
+                    "Come up with and write down one sentence as a continuation—\"And a year later, the characters...\" Save this note as an artifact of your literary evening"
                 ]
             }
         ]
@@ -327,17 +328,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸŽ¨",
+                "emoji": "🎨",
                 "title": "Free Artists",
                 "description": "Old white t-shirts that will become part of the art object"
             },
             {
-                "emoji": "ðŸ–Œï¸",
+                "emoji": "🖌️",
                 "title": "Masters of Bohemia",
                 "description": "Berets, scarves, and creative chaos in clothing"
             },
             {
-                "emoji": "ðŸ‘•",
+                "emoji": "👕",
                 "title": "Art Therapists",
                 "description": "Maximally comfortable tracksuits"
             }
@@ -361,7 +362,7 @@
                 "content": "Now the most interesting part: switch places. Your task isn't to redo, but to complement your partner's drawing. Respond to their colors with yours, connect their lines with yours, turn their abstract spot into something new.",
                 "ideas": [
                     "If your partner drew a circle, turn it into a sun, planet, or eye",
-                    "Draw your lines across the border, symbolically uniting the two halves"
+                    "Draw your lines across the border, symbolically uniting the two halves—anything is allowed"
                 ]
             },
             {
@@ -419,17 +420,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ“",
+                "emoji": "📐",
                 "title": "Architects of the Future",
                 "description": "Comfortable but neat home clothes (shirts, polos)"
             },
             {
-                "emoji": "ðŸ’­",
+                "emoji": "💭",
                 "title": "Great Dreamers",
                 "description": "Cozy pajamas or onesies"
             },
             {
-                "emoji": "âœˆï¸",
+                "emoji": "✈️",
                 "title": "Time Travelers",
                 "description": "Clothes that remind you of your favorite trips"
             }
@@ -462,7 +463,7 @@
                 "content": "On the edges of the map, place your boldest, most boundless fantasies. In this section, there's no such word as \"impossible.\" Allow yourself to dream big.",
                 "ideas": [
                     "Don't limit yourself to reality. Write down everything that comes to mind",
-                    "Examples: \"Open a little cafÃ© by the sea,\" \"Write a book together,\" \"Live abroad for a year,\" \"Collect a vinyl record collection\""
+                    "Examples: \"Open a little café by the sea,\" \"Write a book together,\" \"Live abroad for a year,\" \"Collect a vinyl record collection\""
                 ]
             },
             {
@@ -470,7 +471,7 @@
                 "title": "Final Touch: Compass Check",
                 "content": "When the map is ready, hang it in a visible place. Look at it from a distance and discuss: which dreams overlapped? What was a revelation about your partner's desires?",
                 "ideas": [
-                    "Choose one small dream from the \"One Year\" section and agree to take the first step toward making it happen next week. Photograph your mapâ€”let it become your phone wallpaper"
+                    "Choose one small dream from the \"One Year\" section and agree to take the first step toward making it happen next week. Photograph your map—let it become your phone wallpaper"
                 ]
             }
         ]
@@ -516,17 +517,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ“·",
+                "emoji": "📸",
                 "title": "Memory Keepers",
                 "description": "Cozy vintage-style sweaters"
             },
             {
-                "emoji": "ðŸ“¼",
+                "emoji": "📼",
                 "title": "Archivists",
                 "description": "Comfortable home clothes you can sit on the floor in for hours"
             },
             {
-                "emoji": "ðŸ–¼ï¸",
+                "emoji": "🖼️",
                 "title": "Photo Chronicle Heroes",
                 "description": "Matching t-shirts or clothes in the same color scheme"
             }
@@ -538,7 +539,7 @@
             {
                 "number": 1,
                 "title": "Casting: Finding the Best Shots",
-                "content": "If you haven't done this beforehand, start with the most engaging partâ€”selecting photos together. Rule: each person chooses 20-25 shots. Be sure to include not only beautiful ones, but funny, silly, and candid shots too.",
+                "content": "If you haven't done this beforehand, start with the most engaging part—selecting photos together. Rule: each person chooses 20-25 shots. Be sure to include not only beautiful ones, but funny, silly, and candid shots too.",
                 "ideas": [
                     "Create award categories: \"Silliest Selfie,\" \"Photo Better Never Shown to Anyone,\" \"Shot Full of Love\"",
                     "Find your very first photo together"
@@ -604,24 +605,24 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸŽ©",
+                "emoji": "🎩",
                 "title": "Bohemia",
                 "description": "Turtlenecks, berets, and artsy scarves"
             },
             {
-                "emoji": "ðŸ“",
+                "emoji": "📝",
                 "title": "Couch Poets",
                 "description": "Cozy sweaters and warm socks"
             },
             {
-                "emoji": "âœï¸",
+                "emoji": "✍️",
                 "title": "Rhyme Weavers",
                 "description": "Funny pajamas that set a lighthearted mood"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "ðŸ“‹",
+            "icon": "📋",
             "title": "Poem Topic Ideas",
             "items": [
                 "\"Ode to Our Cat (or Other Pet)\"",
@@ -652,7 +653,7 @@
             },
             {
                 "number": 3,
-                "title": "Bouts-RimÃ©s: Rhyme Game",
+                "title": "Bouts-Rimés: Rhyme Game",
                 "content": "Another fun variation. One of you writes two rhyming lines on paper, folds the sheet so only the second line is visible, and passes it to your partner. They come up with a rhyme for the visible line, fold the sheet again, and pass it back. At the end, you unfold it and read the resulting absurd masterpiece.",
                 "ideas": [
                     "Try this multiple times to create a collection of funny verses"
@@ -679,13 +680,13 @@
                 "title": "Equipment",
                 "items": [
                     "Camera or phone with timer",
-                    "tripod (or substituteâ€”stack of books, chair)"
+                    "tripod (or substitute—stack of books, chair)"
                 ]
             },
             {
                 "title": "Props",
                 "items": [
-                    "Everything at handâ€”hats, glasses, scarves, blankets, string lights, sparklers, glasses, favorite mug"
+                    "Everything at hand—hats, glasses, scarves, blankets, string lights, sparklers, glasses, favorite mug"
                 ]
             },
             {
@@ -703,17 +704,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ‘—",
+                "emoji": "👗",
                 "title": "Supermodels on the Couch",
                 "description": "Beautiful matching pajamas or robes"
             },
             {
-                "emoji": "ðŸŽ­",
+                "emoji": "🎭",
                 "title": "Comedy Heroes",
                 "description": "Bright, fun, or even ridiculous clothing"
             },
             {
-                "emoji": "âš«",
+                "emoji": "⚫",
                 "title": "Total Black/White",
                 "description": "Dress in one color, always looks stylish in photos"
             }
@@ -727,7 +728,7 @@
                 "title": "Studio Setup: Lights, Camera, Action!",
                 "content": "Organize shooting zones. Set your phone on timer (burst mode for 10-20 shots is your best friend), adjust lighting, arrange props within reach.",
                 "ideas": [
-                    "Build a fort from pillows and blanketsâ€”it's a great backdrop and cozy hideaway",
+                    "Build a fort from pillows and blankets—it's a great backdrop and cozy hideaway",
                     "Use string lights to create beautiful bokeh lights in the background"
                 ]
             },
@@ -752,7 +753,7 @@
             {
                 "number": 4,
                 "title": "Final Touch: One-Evening Exhibition",
-                "content": "After the shoot, get comfortable and look through everything you captured. Don't delete failed shotsâ€”they're often the funniest.",
+                "content": "After the shoot, get comfortable and look through everything you captured. Don't delete failed shots—they're often the funniest.",
                 "ideas": [
                     "Choose 3 winners in categories: \"Most Romantic Shot,\" \"Funniest Fail,\" and \"Photo That Needs to Be Printed.\" Create a separate album on your phone named after this evening"
                 ]
@@ -783,31 +784,31 @@
             {
                 "title": "Atmosphere",
                 "items": [
-                    "Create an 'academic' settingâ€”desk lamp, chair as 'podium'",
+                    "Create an 'academic' setting—desk lamp, chair as 'podium'",
                     "quiet background music (classical or neoclassical)"
                 ]
             }
         ],
         "dresscode": [
             {
-                "emoji": "ðŸŽ“",
+                "emoji": "🎓",
                 "title": "Professoriate",
                 "description": "Blazer or cardigan over home clothes, glasses for gravitas"
             },
             {
-                "emoji": "ðŸ“š",
+                "emoji": "📚",
                 "title": "Eternal Students",
                 "description": "Cozy university sweatshirts and hoodies"
             },
             {
-                "emoji": "ðŸŽ§",
+                "emoji": "🎧",
                 "title": "Auditors",
                 "description": "Comfortable pajamas, ready to absorb knowledge while lying down"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "ðŸ“‹",
+            "icon": "📋",
             "title": "Lecture Topic Examples",
             "items": [
                 "\"Why This Music Album Is the Greatest in History: Analysis with Examples\"",
@@ -859,7 +860,7 @@
         "title": "Flavors of Love - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Flavors of Love",
-        "heroSubtitle": "The kitchen isn't just a place for cookingâ€”it's a real stage for creativity, improvisation, and care. This date is a culinary duel where there are no losers",
+        "heroSubtitle": "The kitchen isn't just a place for cooking—it's a real stage for creativity, improvisation, and care. This date is a culinary duel where there are no losers",
         "sectionTitle": "The Process: \"Culinary Duel\"",
         "checklist": [
             {
@@ -893,17 +894,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸ‘¨â€ðŸ³",
+                "emoji": "👨‍🍳",
                 "title": "Head Chefs",
                 "description": "White t-shirts and stylish aprons"
             },
             {
-                "emoji": "ðŸ·",
+                "emoji": "🍷",
                 "title": "Restaurant Critics",
                 "description": "Elegant but comfortable home attire"
             },
             {
-                "emoji": "ðŸ§‘â€ðŸ³",
+                "emoji": "🧑‍🍳",
                 "title": "Kitchen Experimenters",
                 "description": "Whatever you don't mind getting flour on"
             }
@@ -917,7 +918,7 @@
                 "title": "On Your Marks, Get Set, Cook!",
                 "content": "Start cooking simultaneously in different parts of the kitchen. The task is to prepare your partner's favorite dish, pouring all your love and a bit of creativity into it.",
                 "ideas": [
-                    "Have a \"knife battle\"â€”who can chop vegetables faster and more beautifully",
+                    "Have a \"knife battle\"—who can chop vegetables faster and more beautifully",
                     "You can cook with backs to each other to keep the intrigue until the very end"
                 ]
             },
@@ -942,7 +943,7 @@
             {
                 "number": 4,
                 "title": "Final Touch: Recipe for Our Evening",
-                "content": "After dinner full of compliments and laughter, relax and discuss your culinary experience. Cleaning can also be part of the dateâ€”turn on music and dance with the mop.",
+                "content": "After dinner full of compliments and laughter, relax and discuss your culinary experience. Cleaning can also be part of the date—turn on music and dance with the mop.",
                 "ideas": [
                     "Start a \"Book of Our Recipes\" and write these two dishes in it as the very first entries, definitely adding the date and a couple of funny moments from this evening"
                 ]
@@ -953,7 +954,7 @@
         "title": "Temporary Ink - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Temporary Ink",
-        "heroSubtitle": "Today you'll create paintings that can't be hung on a wallâ€”because they live on the body. An evening about attention, contact, and inspiration",
+        "heroSubtitle": "Today you'll create paintings that can't be hung on a wall—because they live on the body. An evening about attention, contact, and inspiration",
         "sectionTitle": "The Process: \"Body as Art Form\"",
         "checklist": [
             {
@@ -986,17 +987,17 @@
         ],
         "dresscode": [
             {
-                "emoji": "ðŸŽ¨",
+                "emoji": "🎨",
                 "title": "Artist and Canvas",
                 "description": "White shirt, open shoulders or back"
             },
             {
-                "emoji": "ðŸ‘•",
+                "emoji": "👕",
                 "title": "Creative Studio",
                 "description": "Old t-shirts and shorts you don't mind getting dirty"
             },
             {
-                "emoji": "ðŸ§˜",
+                "emoji": "🧖",
                 "title": "Minimalism",
                 "description": "Just a blanket or towel, keeping skin exposed"
             }
@@ -1008,35 +1009,35 @@
             {
                 "number": 1,
                 "title": "Warm-Up: \"Guess the Drawing\"",
-                "content": "One person closes their eyes, the other draws simple shapesâ€”a star, zigzag, spiral, arrow, letter. The task is to guess what's being drawn.",
+                "content": "One person closes their eyes, the other draws simple shapes—a star, zigzag, spiral, arrow, letter. The task is to guess what's being drawn.",
                 "ideas": [
-                    "Try drawing everything on one body areaâ€”for example, on the back or stomach, to 'awaken' touch and attention"
+                    "Try drawing everything on one body area—for example, on the back or stomach, to 'awaken' touch and attention"
                 ]
             },
             {
                 "number": 2,
                 "title": "Silent Canvas: \"I Draw What I Feel\"",
-                "content": "Now guessing stops, and pure creativity begins. One person is the canvas, the other is the artist. The artist draws what they feel in the moment: not a subject, but a mood. These can be lines, strokes, spotsâ€”anything that reflects inner rhythm. While one draws, the other listens to music, focusing on sensations.",
+                "content": "Now guessing stops, and pure creativity begins. One person is the canvas, the other is the artist. The artist draws what they feel in the moment: not a subject, but a mood. These can be lines, strokes, spots—anything that reflects inner rhythm. While one draws, the other listens to music, focusing on sensations.",
                 "ideas": [
-                    "Try drawing to musicâ€”let each track dictate its own color and movement",
-                    "Choose a body partâ€”for example, arm, back, legâ€”and turn it into a 'mini-painting'"
+                    "Try drawing to music—let each track dictate its own color and movement",
+                    "Choose a body part—for example, arm, back, leg—and turn it into a 'mini-painting'"
                 ]
             },
             {
                 "number": 3,
                 "title": "Reflection: \"Your Mark on Me\"",
-                "content": "Now you switch roles. But this time the artist doesn't draw what they feel inside, but how they perceive their partnerâ€”their energy, mood, character. To stay focused, use these prompts:",
+                "content": "Now you switch roles. But this time the artist doesn't draw what they feel inside, but how they perceive their partner—their energy, mood, character. To stay focused, use these prompts:",
                 "ideas": [
-                    "\"I draw only with round shapes\"â€”about your partner's softness and tenderness",
-                    "\"Only in blue\"â€”about their favorite color",
+                    "\"I draw only with round shapes\"—about your partner's softness and tenderness",
+                    "\"Only in blue\"—about their favorite color",
                     "\"As if my partner is an element\" (fire, water, air, earth)",
-                    "You can set a time limitâ€”for example, 5 minutes per drawing, so you don't overthink and draw intuitively"
+                    "You can set a time limit—for example, 5 minutes per drawing, so you don't overthink and draw intuitively"
                 ]
             },
             {
                 "number": 4,
                 "title": "Photograph Your Artwork",
-                "content": "When a drawing is on the bodyâ€”it lives briefly. Photos help preserve this moment, mood, and see yourself through another's eyes. Have a small photoshoot of each other.",
+                "content": "When a drawing is on the body—it lives briefly. Photos help preserve this moment, mood, and see yourself through another's eyes. Have a small photoshoot of each other.",
                 "ideas": [
                     "You can create interesting titles for your drawings, as if in a contemporary art gallery"
                 ]
@@ -1050,7 +1051,8 @@
                 ]
             }
         ]
-    },
+    }
+},
     "eveningquestionnaire": {
         "title": "Evening Questionnaire - Date Plan",
         "subtitle": "Date Plan",
