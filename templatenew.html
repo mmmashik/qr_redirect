@@ -670,6 +670,27 @@
             .step-number { font-size: 2rem; }
             .feedback-card { padding: 2rem; }
         }
+
+        /* New styles for the Emoji replacement */
+.hero-emoji-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem; /* Adjust size of emoji here */
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    border-radius: 30% 70% 70% 30% / 60% 40% 60% 40%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+    animation: morph 8s ease-in-out infinite;
+    user-select: none;
+}
+
+/* Dark mode adjustment for the blob background */
+[data-theme="dark"] .hero-emoji-wrapper {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
     </style>
 </head>
 <body>
@@ -781,6 +802,7 @@
         // Sample content for testing
         function getSampleContent() {
             return {
+                "heroEmoji": "☔",
                 "title": "A Message for a Rainy Day - Date Plan",
                 "heroTitle": "A Message for a Rainy Day",
                 "heroSubtitle": "Create a personal Emotional First-Aid Kit filled with love, warmth, and heartfelt words for the future",
@@ -876,6 +898,19 @@
             document.getElementById('page-title').textContent = content.title;
             document.getElementById('heroTitle').textContent = content.heroTitle;
             document.getElementById('heroSubtitle').textContent = content.heroSubtitle;
+
+            // --- NEW CODE STARTS HERE ---
+    // Update Hero Visual (Emoji or Image)
+    const heroImageContainer = document.querySelector('.hero-image-container');
+    
+    if (content.heroEmoji) {
+        // Render Emoji Blob
+        heroImageContainer.innerHTML = `<div class="hero-emoji-wrapper">${content.heroEmoji}</div>`;
+    } else {
+        // Fallback: If no emoji is in JSON, keep existing image or use a default
+        heroImageContainer.innerHTML = `<img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=600" alt="Date illustration" class="hero-image">`;
+    }
+    // --- NEW CODE ENDS HERE ---
 
             // Define emojis for preparation items
             const preparationEmojis = ['✨', '🎨', '💡'];
