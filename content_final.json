@@ -1,6 +1,7 @@
 {
     
     "rainyday": {
+        "heroEmoji": "☔",
         "title": "A Message for a Rainy Day - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "A Message for a Rainy Day",
@@ -99,6 +100,7 @@
         ]
     },
     "cinemarevelation": {
+        "heroEmoji": "📺",
         "title": "Cinema Revelation - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Cinema Revelation",
@@ -197,6 +199,7 @@
         ]
     },
     "whisperofpages": {
+        "heroEmoji": "📖",
         "title": "Whisper of Pages - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Whisper of Pages",
@@ -295,6 +298,7 @@
         ]
     },
     "artdialogue": {
+        "heroEmoji": "🖌️",
         "title": "Art Dialogue - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Art Dialogue",
@@ -385,6 +389,7 @@
         ]
     },
     "mapofhorizons": {
+        "heroEmoji": "🗺️",
         "title": "Map of Horizons - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Map of Horizons",
@@ -477,6 +482,7 @@
         ]
     },
     "storyinframes": {
+        "heroEmoji": "📷",
         "title": "Story in Frames - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Story in Frames",
@@ -575,6 +581,7 @@
         ]
     },
     "ourrhymes": {
+        "heroEmoji": "✒️",
         "title": "Our Rhymes - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Our Rhymes",
@@ -670,6 +677,7 @@
         ]
     },
     "freezeframe": {
+        "heroEmoji": "🤳",
         "title": "Freeze Frame - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Freeze Frame",
@@ -761,6 +769,7 @@
         ]
     },
     "academyfortwo": {
+         "heroEmoji": "🎒",
         "title": "Academy for Two - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Academy for Two",
@@ -857,6 +866,7 @@
         ]
     },
     "flavorsoflove": {
+         "heroEmoji": "🍝",
         "title": "Flavors of Love - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Flavors of Love",
@@ -951,6 +961,7 @@
         ]
     },
     "temporaryink": {
+        "heroEmoji": "🎨",
         "title": "Temporary Ink - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Temporary Ink",
@@ -1054,6 +1065,7 @@
     },
 
     "eveningquestionnaire": {
+        "heroEmoji": "❔",
         "title": "Evening Questionnaire - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Evening Questionnaire",
@@ -1149,6 +1161,7 @@
         ]
     },
     "dancefloorfortwo": {
+        "heroEmoji": "🪩",
         "title": "Dance Floor for Two - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Dance Floor for Two",
@@ -1235,6 +1248,7 @@
         ]
     },
     "fitnessfortwo": {
+        "heroEmoji": "👟",
         "title": "Fitness for Two - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Fitness for Two",
@@ -1322,6 +1336,7 @@
         ]
     },
     "surprisebox": {
+        "heroEmoji": "🎁",
         "title": "Surprise Box - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Surprise Box",
@@ -1406,6 +1421,7 @@
         ]
     },
     "videogamenight": {
+        "heroEmoji": "🎮",
         "title": "Video Game Night - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Video Game Night",
@@ -1490,6 +1506,7 @@
         ]
     },
     "cleaninggame": {
+        "heroEmoji": "🧼",
         "title": "Cleaning Game - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Cleaning Game",
@@ -1566,6 +1583,7 @@
         ]
     },
     "homespa": {
+        "heroEmoji": "🛁",
         "title": "Home SPA - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Home SPA",
@@ -1654,6 +1672,7 @@
         ]
     },
     "ourlittlegarden": {
+        "heroEmoji": "🪴",
         "title": "Our Little Garden - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Our Little Garden",
@@ -1750,6 +1769,7 @@
         ]
     },
     "rolereversal": {
+        "heroEmoji": "👗",
         "title": "Role Reversal - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Role Reversal",
@@ -1825,6 +1845,7 @@
         ]
     },
     "boardgamenight": {
+        "heroEmoji": "🎲",
         "title": "Board Game Night - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Board Game Night",
@@ -1909,6 +1930,7 @@
         ]
     },
     "cookingbattle": {
+        "heroEmoji": "🍴",
         "title": "Cooking Battle - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Cooking Battle",
@@ -1991,98 +2013,106 @@
         ]
     },
     "melodyfortwo": {
+        "heroEmoji": "🎤",
         "title": "Melody for Two - Date Plan",
         "subtitle": "Date Plan",
-        "heroTitle": "Melody for Two",
-        "heroSubtitle": "Music is a time machine. Every couple has their own invisible playlist: the song from their first date, the soundtrack from \"their\" film. This date is a chance to collect these musical gems into one album",
-        "sectionTitle": "The Process: \"Our Soundtrack\"",
+        "heroTitle": "Karaoke for Two",
+        "heroSubtitle": "Some feelings are too big to speak, so we sing them. This date isn't about hitting the perfect notes; it's about harmonies, laughter, and belting out your favorite ballads together in the comfort of your own home.",
+        "sectionTitle": "The Process: \"Living Room Concert\"",
         "checklist": [
             {
-                "title": "Studio",
+                "title": "Stage Gear",
                 "items": [
-                    "Any device with access to a music service (Spotify, Apple Music, etc.)",
-                    "good speakers"
+                    "A screen for lyrics (TV, Laptop, or Tablet)",
+                    "Microphones (real ones or hairbrushes work equally well)",
+                    "Good speakers"
                 ]
             },
             {
                 "title": "Rider",
                 "items": [
-                    "Your favourite drinks and light snacks"
+                    "Water or tea to soothe the vocal cords",
+                    "Your favourite cocktails or mocktails for 'liquid courage'"
                 ]
             },
             {
                 "title": "The Vibe",
                 "items": [
-                    "Dim lighting",
-                    "fairy lights",
-                    "cosy blankets—anything that sets the mood for reminiscing"
+                    "Dim lighting or disco ball effects",
+                    "A clear space to dance and perform",
+                    "Pillows for the 'audience' section"
                 ]
             }
         ],
         "dresscode": [
             {
-                "emoji": "🎸",
-                "title": "Music Lovers",
-                "description": "T-shirts with your favourite bands or just cosy hoodies"
+                "emoji": "😎",
+                "title": "Pop Stars",
+                "description": "Flashy outfits, sunglasses indoors, or sequins"
             },
             {
-                "emoji": "✨",
-                "title": "Stars on Holiday",
-                "description": "Relaxed loungewear"
+                "emoji": "🧢",
+                "title": "Backstage Casual",
+                "description": "Comfy sweatpants and hoodies for a rehearsal vibe"
             }
         ],
         "topics": {
             "show": true,
-            "icon": "🎵",
-            "title": "Track Categories to Include",
+            "icon": "🎶",
+            "title": "Setlist Categories",
             "items": [
-                "\"That very track\": a song that was playing when you first met or had your first kiss",
-                "\"The song of our summer\": the soundtrack of your best trip together",
-                "\"Anthem of stupidity\": a song that you did something funny and ridiculous to",
-                "\"Dream come true\": a track associated with your shared future"
+                "\"The Power Ballad\": A song to belt out with maximum dramatic emotion",
+                "\"The Classic Duet\": A cheesy love song meant for two voices",
+                "\"Guilty Pleasure\": The embarrassing song you both know every word to",
+                "\"The Serenade\": Pick a song to sing specifically to your partner",
+                "\"Teenage Angst\": A track you listened to on repeat when you were 15",
+                "\"The Rap God\": A fast-paced lyrical challenge to test your tongue-twisting skills",
+                "\"Gender Bender\": You sing a song by a female artist, they sing one by a male artist",
+                "\"Showtime\": A Disney or Broadway hit that requires full theatrical acting"
             ]
         },
         "steps": [
             {
                 "number": 1,
-                "title": "Creating an Album: A Blank Canvas",
-                "content": "Open your music service and create a new, empty playlist. The very first step is to come up with a name for it. It should be yours and yours alone.",
+                "title": "Soundcheck: Setting the Stage",
+                "content": "Prepare your 'venue.' Connect your device to the TV or speakers to display lyrics (YouTube or Spotify Karaoke mode work great). Do a quick vocal warm-up together to break the ice.",
                 "ideas": [
-                    "\"Songs we...\"",
-                    "A name related to your inside joke",
-                    "Simply \"Volume 1\""
+                    "Do silly lip-trills or hums to warm up",
+                    "Designate a specific rug or spot as 'The Stage'",
+                    "Pour your drinks before the show starts"
                 ]
             },
             {
                 "number": 2,
-                "title": "Tracks of Life: Notes of Memories",
-                "content": "Add one song at a time to the playlist. After each addition, the narrator explains why they chose that particular track: what story, feeling or person is associated with it.",
+                "title": "The Main Event: Belting It Out",
+                "content": "Take turns picking songs from the setlist categories. Whether you are singing in perfect harmony or shouting the chorus off-key, the goal is total commitment to the performance.",
                 "ideas": [
-                    "Try to guess which song your partner will add next",
-                    "Discuss how your musical tastes have changed over time"
+                    "Rate each other's performance with kisses instead of points",
+                    "Try to include choreography for the upbeat songs"
                 ]
             },
             {
                 "number": 3,
-                "title": "Premiere Listening: A Journey Through Memory",
-                "content": "When the playlist has at least 10-15 tracks, play it from the beginning. Listen, sing along, dance, laugh and just enjoy the stream of memories you have created yourself.",
+                "title": "The Challenge: Switch It Up",
+                "content": "Now that you are warmed up, try a challenge. Pick a song for your partner that they wouldn't normally choose, or try to sing a rap song in an operatic style. Let the laughter take over.",
                 "ideas": [
-                    "Dance to the upbeat tracks, slow dance to the romantic ones",
-                    "Share stories you forgot to mention when adding the songs"
+                    "Record a video of the funniest performance to watch later",
+                    "Try to sing a whole song while holding eye contact"
                 ]
             },
             {
                 "number": 4,
-                "title": "Final Chord: Track on Repeat",
-                "content": "End the evening with a song that best describes your \"here and now.\" Let it become the unofficial anthem of this period of your life.",
+                "title": "Acoustic Set: The Cool Down",
+                "content": "End the concert with a slow, gentle song. You don't even have to sing loud—just hum along softly while slow dancing or sitting close together on the 'stage.'",
                 "ideas": [
-                    "Make the playlist \"shared\" so you can both add new \"tracks of life\" to it in the future",
-                    "Let it grow with you, like a living musical diary"
+                    "Change the lyrics of a famous song to be about your relationship",
+                    "Thank your 'audience' of one for a great night"
                 ]
             }
         ]
     },
     "messagetomorrow": {
+        "heroEmoji": "⌛",
         "title": "A Message to Yourself Tomorrow - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "A Message to Yourself Tomorrow",
@@ -2165,6 +2195,7 @@
         ]
     },
     "alchemyfortwo": {
+        "heroEmoji": "🍸",
         "title": "Alchemy for Two - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Alchemy for Two",
@@ -2263,6 +2294,7 @@
         ]
     },
     "cosybookclub": {
+        "heroEmoji": "🫖",
         "title": "Cosy Book Club - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Cosy Book Club",
@@ -2353,6 +2385,7 @@
         ]
     },
     "duelofminds": {
+        "heroEmoji": "🔎",
         "title": "Duel of Minds: Two Quests, Two Secrets - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Duel of Minds: Two Quests, Two Secrets",
@@ -2432,6 +2465,7 @@
         ]
     },
     "eveningofgratitude": {
+        "heroEmoji": "🫙",
         "title": "Evening of Gratitude - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Evening of Gratitude",
@@ -2523,6 +2557,7 @@
         ]
     },
     "talentworkshop": {
+        "heroEmoji": "✂️",
         "title": "Talent Workshop - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Talent Workshop",
@@ -2613,6 +2648,7 @@
         ]
     },
     "nostalgicairwaves": {
+        "heroEmoji": "📼",
         "title": "Nostalgic Airwaves - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Nostalgic Airwaves",
@@ -2704,6 +2740,7 @@
         ]
     },
     "gymnasticsformind": {
+        "heroEmoji": ✍️",
         "title": "Gymnastics for the Mind - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Gymnastics for the Mind",
@@ -2800,6 +2837,7 @@
         ]
     },
     "oursecretlanguage": {
+        "heroEmoji": "🌍",
         "title": "Our Secret Language - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Our Secret Language",
@@ -2887,6 +2925,7 @@
         ]
     },
     "livebroadcast": {
+        "heroEmoji": "🎧",
         "title": "Live Broadcast - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Live Broadcast",
@@ -2975,6 +3014,7 @@
         ]
     },
     "laboratoryofmiracles": {
+        "heroEmoji": "🌋",
         "title": "Laboratory of Miracles - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Laboratory of Miracles",
@@ -3053,6 +3093,7 @@
         ]
     },
     "talesintwilight": {
+        "heroEmoji": "🔦",
         "title": "Tales in the Twilight - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Tales in the Twilight",
@@ -3156,6 +3197,7 @@
         ]
     },
     "secretpicnic": {
+        "heroEmoji": "🧺",
         "title": "Secret Picnic - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Secret Picnic",
@@ -3247,6 +3289,7 @@
         ]
     },
     "roomoftrust": {
+        "heroEmoji": "🤍",
         "title": "Room of Trust: Heart-to-Heart Talk - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Room of Trust: Heart-to-Heart Talk",
@@ -3325,6 +3368,7 @@
         ]
     },
     "fortunetellingsalon": {
+        "heroEmoji": "🔮",
         "title": "Fortune-Telling Salon: What Awaits Us? - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Fortune-Telling Salon: What Awaits Us?",
@@ -3404,6 +3448,7 @@
         ]
     },
     "couchtravel": {
+        "heroEmoji": "📍",
         "title": "Couch Travel - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Couch Travel",
@@ -3488,6 +3533,7 @@
         ]
     },
     "worldbuilders": {
+        "heroEmoji": "🧩",
         "title": "World Builders: Piecing It Together - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "World Builders: Piecing It Together",
@@ -3578,6 +3624,7 @@
         ]
     },
     "totalimmersion": {
+        "heroEmoji": "🧙‍♂️",
         "title": "Total Immersion: Night in the Cinematic Universe - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Total Immersion: Night in the Cinematic Universe",
@@ -3674,6 +3721,7 @@
         ]
     },
     "universityfortwo": {
+        "heroEmoji": "🎓",
         "title": "University for Two: The Faculty of Cool Ideas - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "University for Two: The Faculty of Cool Ideas",
@@ -3770,6 +3818,7 @@
         ]
     },
     "lightsout": {
+        "heroEmoji": "🕯️",
         "title": "When the Lights Went Out: An Evening from the Past - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "When the Lights Went Out: An Evening from the Past",
@@ -3857,6 +3906,7 @@
         ]
     },
     "ourlifeline": {
+        "heroEmoji": "💘",
         "title": "Our Lifeline: Chronicles of a Great Love - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Our Lifeline: Chronicles of a Great Love",
@@ -3949,6 +3999,7 @@
         ]
     },
     "perfectday": {
+        "heroEmoji": "☕",
         "title": "The Perfect Day For You - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "The Perfect Day For You",
@@ -4029,6 +4080,7 @@
         ]
     },
     "blindfoldedtrust": {
+        "heroEmoji": "🦯",
         "title": "Blindfolded Trust - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Blindfolded Trust",
@@ -4121,6 +4173,7 @@
         ]
     },
     "gamedevnight": {
+        "heroEmoji": "👾",
         "title": "Game Dev Night: Build Your World - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Game Dev Night: Build Your World",
@@ -4235,6 +4288,7 @@
         ]
     },
     "claynight": {
+        "heroEmoji": "🧁",
         "title": "Clay Night: Sculpting Nonsense - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Clay Night: Sculpting Nonsense",
@@ -4322,6 +4376,7 @@
         ]
     },
     "magicnight": {
+        "heroEmoji": "🪄",
         "title": "Magic Night: Tricks Up Your Sleeve - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Magic Night: Tricks Up Your Sleeve",
@@ -4429,6 +4484,7 @@
         ]
     },
     "dreamhome": {
+        "heroEmoji": "📐",
         "title": "Dream Home: Blueprints for Two - Date Plan",
         "subtitle": "Date Plan",
         "heroTitle": "Dream Home: Blueprints for Two",
