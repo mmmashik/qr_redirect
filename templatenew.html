@@ -687,6 +687,37 @@
     user-select: none;
 }
 
+        /* Language Widget Positioning */
+.language-wrapper {
+    position: fixed;
+    top: 2rem;
+    left: 2rem; /* Opposite side of your Theme Toggle */
+    z-index: 1000; /* Ensure it is clickable above background shapes */
+    background: transparent;
+}
+
+/* Optional: Make the Google Dropdown look a bit cleaner to match your theme */
+.goog-te-gadget-simple {
+    background-color: transparent !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 8px 12px !important;
+    border-radius: 20px !important; /* Rounded corners like your theme */
+    font-family: 'Inter', sans-serif !important;
+    transition: all 0.3s ease;
+}
+
+.goog-te-gadget-simple:hover {
+    border-color: var(--accent-color) !important;
+}
+
+/* Hide the "Powered by Google" text to make it smaller */
+.goog-te-gadget-simple span {
+    color: var(--text-dark) !important;
+}
+.goog-te-gadget-simple img {
+    display: none !important; /* Hides the Google Icon if you want */
+}
+
 /* Dark mode adjustment for the blob background */
 [data-theme="dark"] .hero-emoji-wrapper {
     background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
